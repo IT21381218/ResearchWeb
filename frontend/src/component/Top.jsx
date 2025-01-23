@@ -12,10 +12,10 @@ const Top = () => {
   }, []);
 
   return (
-    <div className="projects-container">
+    <div className="top-container" id="top">
       <CustomCursor />
       <Hero />
-      <ProjectsDetails />
+      <TopDetails />
     </div>
   );
 };
@@ -47,8 +47,6 @@ const CustomCursor = () => {
     </div>
   );
 };
-
-
 
 const Hero = () => {
   return (
@@ -150,63 +148,26 @@ const ParallaxImg = ({ className, alt, src, start, end }) => {
   );
 };
 
-const ProjectsDetails = () => {
-  const projects = [
-    {
-      title: "Project One",
-      description: "A detailed overview of the first project.",
-      image: "https://images.unsplash.com/photo-1484600899469-230e8d1d59c0?q=80",
-      link: "https://example.com/project-one",
-    },
-    {
-      title: "Project Two",
-      description: "Highlights the second project's features.",
-      image: "https://images.unsplash.com/photo-1446776709462-d6b525c57bd3?q=80",
-      link: "https://example.com/project-two",
-    },
-    {
-      title: "Project Three",
-      description: "Details about the technologies and outcomes.",
-      image: "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?q=80",
-      link: "https://example.com/project-three",
-    },
-      
-  ];
-
+const TopDetails = () => {
   return (
-    <div className="projects-details">
-      {projects.map((project, index) => (
-        <motion.div
-          className="project-card"
-          key={index}
-          whileHover={{ scale: 1.05, boxShadow: "0px 10px 20px rgba(0,0,0,0.5)" }}
-          transition={{ duration: 0.3 }}
-        >
-          <img
-            src={project.image}
-            alt={project.title}
-            className="project-image"
-          />
-          <h2 className="project-title">{project.title}</h2>
-          <p className="project-description">{project.description}</p>
-          <a
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-link"
-          >
-            <motion.button
-              className="project-link-button"
-              whileHover={{ backgroundColor: "#474747" , color:"#ffff"}}
-              transition={{ duration: 0.1 }}
-            >
-              Visit Project
-            </motion.button>
-          </a>
-        </motion.div>
-      ))}
+    <div className="top-details">
+      <video
+        className="top-video"
+        autoPlay
+        loop
+        muted
+        playsInline
+        src="https://res.cloudinary.com/dwcxwpn7q/video/upload/v1733940890/eehanee/1_xuwm2i.mov"
+      />
+      <div className="top-description">
+        <h2>Welcome to Our Webpage</h2>
+        <p>
+          Explore stunning visuals and captivating designs as you scroll through our immersive experience. From parallax effects to dynamic transitions, every detail is crafted to inspire and engage.
+        </p>
+      </div>
     </div>
   );
 };
+
 
 export default Top;

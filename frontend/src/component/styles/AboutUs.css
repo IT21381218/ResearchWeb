@@ -1,0 +1,109 @@
+.about-us {
+  padding: 50px 20px;
+  background-color: #00000000;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.about-us h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.supervisors-section, .team-section {
+  margin-bottom: 50px;
+}
+
+.supervisors-section h2, .team-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Flexbox for Horizontal Layout */
+.supervisors-container, .team-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Card Styles */
+.card {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.profile-image {
+  width: 250px; /* Increased size */
+  height: 250px; /* Square aspect ratio */
+  border-radius: 5%; /* Circular shape */
+  margin: 0 auto 15px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.position {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+/* Description Styling */
+.description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+/* Social Links */
+.social-links {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease, bottom 0.3s ease;
+}
+
+.card:hover .social-links {
+  opacity: 1;
+  bottom: 20px;
+}
+
+.social-btn {
+  background-color: #0077b5;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.social-btn:hover {
+  background-color: #005582;
+}

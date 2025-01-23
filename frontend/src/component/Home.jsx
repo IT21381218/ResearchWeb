@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Top from './Top';
-import About from './AboutMe';
+import AboutUs from './AboutUs';
 import Navbar from './Navbar';
 
 const Home = () => {
@@ -27,8 +27,8 @@ const Home = () => {
       <section id="top" className={currentSection === 'top' ? 'slide-in' : ''}>
         <Top />
       </section>
-      <section id="services" className={currentSection === 'about' ? 'slide-in' : ''}>
-        <About />
+      <section id="about" className={currentSection === 'about' ? 'slide-in' : ''}>
+        <AboutUs />
       </section>
     </div>
   );
