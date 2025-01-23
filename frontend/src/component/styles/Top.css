@@ -1,26 +1,24 @@
-/* Top.css */
 .top-section {
-    height: 100vh; /* Full viewport height */
-
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     text-align: center;
     font-family: Arial, sans-serif;
-}
-
-.top-content h1 {
+  }
+  
+  .top-content h1 {
     font-size: 3rem;
     margin-bottom: 20px;
-}
-
-.top-content p {
+  }
+  
+  .top-content p {
     font-size: 1.2rem;
     margin-bottom: 30px;
-}
-
-.top-button {
+  }
+  
+  .top-button {
     text-decoration: none;
     background-color: white;
     color: #00bcd4;
@@ -28,9 +26,10 @@
     font-size: 1rem;
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.top-button:hover {
+  }
+  
+  .top-button:hover {
     background-color: #5c6163;
     color: white;
-}
+  }
+  
