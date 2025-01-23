@@ -1,115 +1,113 @@
 /* Global Styles */
 body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Prevent horizontal overflow */
-    
-  }
-  
-  .top-container {
-    background-color: #000000;
-  }
-  
-  /* Hero Section */
-  .hero-section {
-    position: relative;
-    width: 100%;
-    height: calc(1500px + 100vh);
-    cursor: none;
-  }
-  
-  .center-image {
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: brightness(0.9) contrast(1.2);
-    transition: transform 0.5s ease, filter 0.5s ease;
-  }
-  
-  .gradient-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 96px;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 100%);
-  }
-  
-  /* Parallax Images */
-  .parallax-images {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 200px;
-  }
-  
-  .parallax-img {
-    transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
-    border-radius: 12px;
-    overflow: hidden;
-    margin: 1%;
-  }
-  
-  .parallax-img.img-left,
-  .parallax-img.img-right {
-    width: 33%;
-  }
-  
-  .parallax-img.img-center {
-    width: 33%;
-  }
-  
-  .parallax-img.img-left-wide {
-    width: 33%;
-  }
-  
-  .parallax-img:hover {
-    transform: scale(1.1);
-    filter: brightness(1.2);
-  }
-  
-  /* Prevent horizontal overflow for all elements */
-  * {
-    box-sizing: border-box;
-  }
-  
-  /* Scroll Animation for Hero Section */
-  @keyframes heroScroll {
-    0% {
-      background-size: 100%;
-    }
-    100% {
-      background-size: 170%;
-    }
-  }
-  
-  .center-image {
-    animation: heroScroll 1.5s ease-in-out;
-  }
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
 
-  
-  /* Custom Cursor */
-  .custom-cursor {
-    position: fixed;
-    width: 70px;
-    height: 70px;
-    border: 2px solid #ffffff;
-    border-radius: 50%;
-    pointer-events: none; /* Prevent blocking interactions */
-    z-index: 9999;
-    transform: translate(-50%, -50%);
-    transition: transform 0.2s ease-out, opacity 0.2s ease-out;
-    opacity: 0;
+.top-container {
+  background-color: #000000;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: calc(1500px + 100vh);
+  cursor: none;
+}
+
+.center-image {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(0.9) contrast(1.2);
+  transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.gradient-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 96px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 100%);
+}
+
+/* Parallax Images */
+.parallax-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+
+.parallax-img {
+  transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 1%;
+}
+
+.parallax-img.img-left,
+.parallax-img.img-right {
+  width: 33%;
+}
+
+.parallax-img.img-center {
+  width: 33%;
+}
+
+.parallax-img.img-left-wide {
+  width: 33%;
+}
+
+.parallax-img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+/* Prevent horizontal overflow for all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Scroll Animation for Hero Section */
+@keyframes heroScroll {
+  0% {
+      background-size: 100%;
   }
-  
-  .custom-cursor.hovering {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1.2);
+  100% {
+      background-size: 170%;
   }
-  
+}
+
+.center-image {
+  animation: heroScroll 1.5s ease-in-out;
+}
+
+/* Custom Cursor */
+.custom-cursor {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  pointer-events: none; /* Prevent blocking interactions */
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+  opacity: 0;
+}
+
+.custom-cursor.hovering {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1.2);
+}
+
 /* Top Details Section */
 .top-details {
   display: flex;
@@ -146,23 +144,102 @@ body {
   color: #c0c0c0;
 }
 
+/* Cursor text styles */
+.cursor-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-family: lable;
+  text-transform: uppercase;
+  opacity: 0; /* Default hidden */
+  transition: opacity 0.2s ease-out;
+  text-align: center;
+}
 
-  /* Cursor text styles */
-  .cursor-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ffffff;
-    font-size: 0.8rem;
-    font-family: lable;
-    text-transform: uppercase;
-    opacity: 0; /* Default hidden */
-    transition: opacity 0.2s ease-out;
-    text-align: center;
+.custom-cursor.hovering .cursor-text {
+  opacity: 1; /* Show when hovering */
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .parallax-images {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 100px;
   }
-  
-  .custom-cursor.hovering .cursor-text {
-    opacity: 1; /* Show when hovering */
+
+  .parallax-img {
+      width: 80%;
+      margin-bottom: 20px;
   }
-  
+
+  .top-description h2 {
+      font-size: 1.8rem;
+  }
+
+  .top-description p {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .parallax-images {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+  }
+
+  .parallax-img {
+      width: 90%;
+  }
+
+  .top-description h2 {
+      font-size: 1.5rem;
+  }
+
+  .top-description p {
+      font-size: 0.9rem;
+  }
+
+  .top-details {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .top-video {
+      max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .parallax-images {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30px;
+  }
+
+  .parallax-img {
+      width: 100%;
+      margin-bottom: 20px;
+      transform: none; /* Reset transforms for parallax effect */
+  }
+
+  .top-description h2 {
+      font-size: 1.2rem;
+  }
+
+  .top-description p {
+      font-size: 0.8rem;
+  }
+
+  .top-details {
+      padding: 20px;
+  }
+
+  .top-video {
+      max-width: 100%;
+  }
+}

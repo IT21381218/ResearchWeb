@@ -1,3 +1,4 @@
+/* Base Styles */
 .about-us {
   padding: 50px 20px;
   background-color: #0000008e;
@@ -106,4 +107,92 @@
 
 .social-btn:hover {
   background-color: #005582;
+}
+
+/* Mobile Responsiveness */
+
+/* Max-width 1200px */
+@media (max-width: 1200px) {
+  .about-us h1 {
+    font-size: 2rem;
+  }
+
+  .supervisors-section h2, .team-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .card {
+    max-width: 280px;
+  }
+
+  .profile-image {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+/* Max-width 768px */
+@media (max-width: 768px) {
+  .about-us h1 {
+    font-size: 1.8rem;
+  }
+
+  .supervisors-section h2, .team-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .supervisors-container, .team-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 70%;
+    margin-bottom: 20px;
+  }
+
+  .profile-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .social-btn {
+    font-size: 1rem;
+    padding: 8px;
+  }
+}
+
+/* Max-width 480px */
+@media (max-width: 480px) {
+  .about-us h1 {
+    font-size: 1.5rem;
+  }
+
+  .supervisors-section h2, .team-section h2 {
+    font-size: 1.4rem;
+  }
+
+  .supervisors-container, .team-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 90%;
+    margin-bottom: 15px;
+  }
+
+  .profile-image {
+    width: 180px;
+    height: 180px;
+  }
+
+  .social-btn {
+    font-size: 0.9rem;
+    padding: 6px;
+  }
+
+  .position, .description {
+    font-size: 0.9rem;
+  }
 }
