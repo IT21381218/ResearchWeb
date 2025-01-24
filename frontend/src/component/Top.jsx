@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react"; 
 import { motion, useScroll, useTransform, useMotionTemplate } from "framer-motion";
-import { useNavigate } from "react-router-dom";
 import './styles/Top.css';
 
 const SECTION_HEIGHT = 1500;
@@ -22,7 +21,7 @@ const Top = () => {
 
 const CustomCursor = () => {
   const cursorRef = useRef(null);
-  const [hovering, setHovering] = useState(false);
+  const [hovering] = useState(false);
 
   useEffect(() => {
     const moveCursor = (e) => {

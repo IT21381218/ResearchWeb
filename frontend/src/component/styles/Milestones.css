@@ -1,0 +1,229 @@
+/* Milestones.css */
+
+.Milestones-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.timeline-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.timeline-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 4px;
+    height: 100%;
+    background-color: #ddd;
+    z-index: 1;
+}
+
+.timeline-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+    position: relative;
+    margin-left: 50px;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.timeline-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.timeline-card::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: -18px;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 16px solid #ddd;
+    z-index: 2;
+}
+
+.timeline-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.name {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+.types {
+    display: flex;
+    gap: 10px;
+}
+
+.type {
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 4px;
+    align-self: flex-start;
+}
+
+.type.group {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.type.individual {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Max-width 1200px */
+@media (max-width: 1200px) {
+    .timeline-container {
+        padding: 15px;
+    }
+
+    .timeline-title {
+        font-size: 1.8rem;
+    }
+
+    .timeline-card {
+        margin-left: 30px;
+    }
+
+    .card-content {
+        gap: 8px;
+    }
+
+    .name {
+        font-size: 1.4rem;
+    }
+
+    .description {
+        font-size: 0.95rem;
+    }
+
+    .type {
+        font-size: 0.85rem;
+    }
+}
+
+/* Max-width 768px */
+@media (max-width: 768px) {
+    .timeline-container {
+        padding: 10px;
+    }
+
+    .timeline-title {
+        font-size: 1.6rem;
+    }
+
+    .timeline-card {
+        margin-left: 20px;
+    }
+
+    .card-content {
+        gap: 6px;
+    }
+
+    .name {
+        font-size: 1.3rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+
+    .type {
+        font-size: 0.8rem;
+    }
+
+    .timeline::before {
+        left: 10px;
+        width: 2px;
+    }
+}
+
+/* Max-width 480px */
+@media (max-width: 480px) {
+    .timeline-container {
+        padding: 5px;
+    }
+
+    .timeline-title {
+        font-size: 1.4rem;
+    }
+
+    .timeline-card {
+        margin-left: 10px;
+    }
+
+    .card-content {
+        gap: 4px;
+    }
+
+    .name {
+        font-size: 1.2rem;
+    }
+
+    .description {
+        font-size: 0.85rem;
+    }
+
+    .type {
+        font-size: 0.75rem;
+        padding: 4px 8px;
+    }
+
+    .timeline::before {
+        left: 5px;
+        width: 1px;
+    }
+}

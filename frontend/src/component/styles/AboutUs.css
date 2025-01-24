@@ -1,7 +1,7 @@
 /* Base Styles */
 .about-us {
   padding: 50px 20px;
-  background-color: #0000008e;
+  background-color: #476e57a2;
   font-family: 'Poppins', sans-serif;
   text-align: center;
 }
@@ -9,7 +9,7 @@
 .about-us h1 {
   font-size: 2.5rem;
   margin-bottom: 30px;
-  color: #333;
+  color: #0c190b;
 }
 
 .supervisors-section, .team-section {
@@ -19,7 +19,7 @@
 .supervisors-section h2, .team-section h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #555;
+  color: #ffffff;
 }
 
 /* Flexbox for Horizontal Layout */
@@ -33,7 +33,7 @@
 /* Card Styles */
 .card {
   position: relative;
-  background-color: #ffffff;
+  background-color: #c7ddbd;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
