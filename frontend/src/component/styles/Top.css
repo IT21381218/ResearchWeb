@@ -17,6 +17,7 @@ body {
   cursor: none;
 }
 
+/* Center Image Styles */
 .center-image {
   position: sticky;
   top: 0;
@@ -28,6 +29,27 @@ body {
   filter: brightness(0.9) contrast(1.2);
   transition: transform 0.5s ease, filter 0.5s ease;
 }
+
+/* Desktop Center Image */
+.center-image-desktop {
+  display: block; /* Default visibility */
+}
+
+/* Mobile Center Image */
+.center-image-mobile {
+  display: none; /* Hidden by default */
+}
+
+/* Responsive Styles */
+@media (max-width: 820px) {
+  .center-image-desktop {
+    display: none; /* Hide desktop image on mobile */
+  }
+  .center-image-mobile {
+    display: block; /* Show mobile image on mobile */
+  }
+}
+
 
 .gradient-overlay {
   position: absolute;

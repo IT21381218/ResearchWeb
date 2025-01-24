@@ -81,16 +81,30 @@ const CenterImage = () => {
   );
 
   return (
-    <motion.div
-      className="center-image"
-      style={{
-        clipPath,
-        backgroundSize,
-        opacity,
-        backgroundImage:
-          "url(https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734371660/pexels-eberhardgross-1670187_nnn199.jpg)",
-      }}
-    />
+    <>
+      {/* Desktop Center Image */}
+      <motion.div
+        className="center-image center-image-desktop"
+        style={{
+          clipPath,
+          backgroundSize,
+          opacity,
+          backgroundImage:
+            "url(https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734555042/zade/output_o5treq.png)",
+        }}
+      />
+      {/* Mobile Center Image */}
+      <motion.div
+        className="center-image center-image-mobile"
+        style={{
+          clipPath,
+          backgroundSize,
+          opacity,
+          backgroundImage:
+            "url(https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734596184/zade/x_pwhs8v.png)", // Replace with mobile-specific image
+        }}
+      />
+    </>
   );
 };
 
@@ -98,21 +112,21 @@ const ParallaxImages = () => {
   return (
     <div className="parallax-images">
       <ParallaxImg
-        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734375799/eehanee/807899038176362627_nlbqk0.png"
+        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734463939/zade/808278120579776760_myyvy5.png"
         alt="Space launch"
         start={0}
         end={200}
         className="parallax-img img-left"
       />
       <ParallaxImg
-        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734375943/eehanee/807900008838988707_g6kwsc.png"
+        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734464358/zade/808279907286205610_oayzce.png"
         alt="Spacecraft"
         start={200}
         end={-250}
         className="parallax-img img-center"
       />
       <ParallaxImg
-        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734376057/eehanee/807900687443833199_pcefbw.png"
+        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734464194/zade/808279198616588441_wjvzdf.png"
         alt="Satellite"
         start={-200}
         end={200}
