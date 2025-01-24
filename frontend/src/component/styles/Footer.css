@@ -47,13 +47,13 @@
   }
   
   .social-icons a {
-    color: #fff;
+    color: #f2f7f4;
     margin: 0 10px;
     transition: color 0.3s;
   }
   
   .social-icons a:hover {
-    color: #f1c40f;
+    color: #c3d7c9;
   }
   
   .footer-bottom {

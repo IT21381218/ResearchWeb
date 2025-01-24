@@ -135,13 +135,13 @@ body {
 .top-description h2 {
   font-size: 2rem;
   margin-bottom: 15px;
-  color: #e0e0e0;
+  color: #f2f7f4;
 }
 
 .top-description p {
   font-size: 1.2rem;
   line-height: 1.6;
-  color: #c0c0c0;
+  color: #f2f7f4;
 }
 
 /* Cursor text styles */

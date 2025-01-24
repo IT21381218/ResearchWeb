@@ -1,7 +1,7 @@
 /* Base Styles */
 .about-us {
   padding: 50px 20px;
-  background-color: #476e57a2;
+  background-color: #e0ebe23f;
   font-family: 'Poppins', sans-serif;
   text-align: center;
 }
@@ -9,7 +9,7 @@
 .about-us h1 {
   font-size: 2.5rem;
   margin-bottom: 30px;
-  color: #0c190b;
+  color: #121c17;
 }
 
 .supervisors-section, .team-section {
@@ -17,9 +17,9 @@
 }
 
 .supervisors-section h2, .team-section h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 20px;
-  color: #ffffff;
+  color: #121c17;
 }
 
 /* Flexbox for Horizontal Layout */
@@ -31,9 +31,9 @@
 }
 
 /* Card Styles */
-.card {
+.Aboutcard {
   position: relative;
-  background-color: #c7ddbd;
+  background: linear-gradient(135deg, #6f987e, #c8eafd); 
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -43,7 +43,7 @@
   overflow: hidden;
 }
 
-.card:hover {
+.Aboutcard:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
@@ -56,22 +56,22 @@
   object-fit: cover;
 }
 
-.card h3 {
+.Aboutcard h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #333;
+  color: #121c17;
 }
 
 .position {
   font-size: 1rem;
-  color: #777;
+  color: #3b604b;
   margin-bottom: 15px;
 }
 
 /* Description Styling */
 .description {
   font-size: 1rem;
-  color: #555;
+  color: #121c17;
   margin-bottom: 15px;
   line-height: 1.5;
 }
@@ -88,14 +88,14 @@
   transition: opacity 0.3s ease, bottom 0.3s ease;
 }
 
-.card:hover .social-links {
+.Aboutcard:hover .social-links {
   opacity: 1;
   bottom: 20px;
 }
 
 .social-btn {
-  background-color: #0077b5;
-  color: #ffffff;
+  background-color: #3b604b;
+  color: #c3d7c9;
   padding: 10px;
   border-radius: 50%;
   font-size: 1.2rem;
@@ -106,7 +106,7 @@
 }
 
 .social-btn:hover {
-  background-color: #005582;
+  background-color: #2f4d3c;
 }
 
 /* Mobile Responsiveness */
@@ -121,7 +121,7 @@
     font-size: 1.8rem;
   }
 
-  .card {
+  .Aboutcard {
     max-width: 280px;
   }
 
@@ -146,7 +146,7 @@
     align-items: center;
   }
 
-  .card {
+  .Aboutcard {
     max-width: 70%;
     margin-bottom: 20px;
   }
@@ -177,7 +177,7 @@
     align-items: center;
   }
 
-  .card {
+  .Aboutcard {
     max-width: 90%;
     margin-bottom: 15px;
   }

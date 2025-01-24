@@ -1,7 +1,7 @@
 /* Base Styles */
 .documentation {
     padding: 50px 20px;
-    background-color: #f9f9f9;
+    background-color: #476e57;
     font-family: 'Poppins', sans-serif;
     text-align: center;
   }
@@ -9,7 +9,7 @@
   .documentation h1 {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: #333;
+    color: #f2f7f4;
   }
   
   .documents-section, .presentations-section {
@@ -17,9 +17,9 @@
   }
   
   .documents-section h2, .presentations-section h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 20px;
-    color: #555;
+    color: #f2f7f4;
   }
   
   /* Flexbox for Horizontal Layout */
@@ -33,7 +33,7 @@
   /* Card Styles */
   .card {
     position: relative;
-    background-color: #ffffff;
+    background: linear-gradient(135deg, #6f987e, #c8eafd); 
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -49,22 +49,22 @@
   }
   
   .document-image {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 10%;
-    margin: 0 auto 15px;
+    margin: 0 auto 0px;
     object-fit: cover;
   }
   
   .card h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #333;
+    color: #121c17;
   }
   
   .description {
     font-size: 1rem;
-    color: #555;
+    color: #476e57;
     margin-bottom: 15px;
     line-height: 1.5;
   }
@@ -72,7 +72,7 @@
   /* Download Button */
   .download-btn {
     display: inline-block;
-    background-color: #476e57;
+    background-color: #f57702;
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 5px;

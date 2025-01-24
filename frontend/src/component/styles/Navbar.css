@@ -51,7 +51,7 @@
 
 /* Hover Effect for Links */
 .navbar-links li:hover {
-  color: #00bcd4;
+  color: #f57702;
 }
 
 /* Underline Animation */
@@ -62,7 +62,7 @@
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: #00bcd4;
+  background-color: #f57702;
   transition: width 0.3s ease, left 0.3s ease;
 }
 
