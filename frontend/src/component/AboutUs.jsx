@@ -28,10 +28,10 @@ const AboutUs = () => {
 
   const teamMembers = [
     {
-      name: "Alice Brown",
-      position: "Team Member",
+      name: "Poornaka Perera",
+      position: "Group Leader",
       description: "Alice is a front-end developer with a passion for creating responsive and user-friendly web applications.",
-      image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734375943/eehanee/807900008838988707_g6kwsc.png",
+      image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737716972/cattle%20site/Poornaka_u8bpxr.jpg",
       social: {
         linkedin: "https://linkedin.com/in/alicebrown",
         github: "https://github.com/alicebrown",

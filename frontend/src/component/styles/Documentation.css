@@ -72,7 +72,7 @@
   /* Download Button */
   .download-btn {
     display: inline-block;
-    background-color: #0077b5;
+    background-color: #476e57;
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -82,7 +82,7 @@
   }
   
   .download-btn:hover {
-    background-color: #005582;
+    background-color: #2f4d3c;
   }
   
   /* Mobile Responsiveness */

@@ -4,6 +4,7 @@ import AboutUs from './AboutUs';
 import Navbar from './Navbar';
 import Documentation from './Documentation';
 import Milestones from './Milestones';
+import Footer from './Footer';
 
 const Home = () => {
   const [currentSection, setCurrentSection] = useState('');
@@ -37,6 +38,9 @@ const Home = () => {
       </section>
       <section id="about" className={currentSection === 'about' ? 'slide-in' : ''}>
         <AboutUs />
+      </section>
+      <section id="about" className={currentSection === 'about' ? 'slide-in' : ''}>
+        <Footer />
       </section>
     </div>
   );

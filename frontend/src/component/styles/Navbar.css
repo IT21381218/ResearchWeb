@@ -22,13 +22,13 @@
 .navbar-logo {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #00bcd4;
   cursor: pointer;
   transition: color 0.3s ease;
 }
 
-.navbar-logo:hover {
-  color: #ffffff;
+.logo-img {
+  width: 120px; /* Adjust the width as needed */
+  height: auto;
 }
 
 /* Navbar Links */
@@ -94,5 +94,17 @@
 
   .navbar-links li {
     margin: 10px 0;
+  }
+
+  .navbar-menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
   }
 }
