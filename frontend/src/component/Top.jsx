@@ -90,7 +90,7 @@ const CenterImage = () => {
           backgroundSize,
           opacity,
           backgroundImage:
-            "url(https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734555042/zade/output_o5treq.png)",
+            "url(https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737744960/cattle%20site/822343704682494169_1_gybyr3.png)",
         }}
       />
       {/* Mobile Center Image */}

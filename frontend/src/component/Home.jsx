@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import Documentation from './Documentation';
 import Milestones from './Milestones';
 import Footer from './Footer';
+import ProjectScope from './ProjectScope';
 
 const Home = () => {
   const [currentSection, setCurrentSection] = useState('');
@@ -31,9 +32,12 @@ const Home = () => {
         <Top />
       </section>
       <section id="top" className={currentSection === 'top' ? 'slide-in' : ''}>
+        <ProjectScope />
+      </section>
+      <section id="Milestones" className={currentSection === 'Milestones' ? 'slide-in' : ''}>
         <Milestones />
       </section>
-      <section id="top" className={currentSection === 'top' ? 'slide-in' : ''}>
+      <section id="Documentation" className={currentSection === 'Documentation' ? 'slide-in' : ''}>
         <Documentation />
       </section>
       <section id="about" className={currentSection === 'about' ? 'slide-in' : ''}>

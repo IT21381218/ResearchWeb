@@ -188,7 +188,6 @@ body {
 /* Responsive Design */
 @media (max-width: 1200px) {
   .parallax-images {
-      flex-direction: column;
       align-items: center;
       margin-top: 100px;
   }
@@ -209,7 +208,6 @@ body {
 
 @media (max-width: 768px) {
   .parallax-images {
-      flex-direction: column;
       align-items: center;
       margin-top: 50px;
   }
@@ -238,7 +236,6 @@ body {
 
 @media (max-width: 480px) {
   .parallax-images {
-      flex-direction: column;
       align-items: center;
       margin-top: 30px;
   }

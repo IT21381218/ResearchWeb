@@ -1,0 +1,21 @@
+.project-scope {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .project-scope section {
+    margin-bottom: 50px;
+  }
+  
+  .project-scope h2 {
+    font-size: 1.5rem;
+    color: #f57702;
+    margin-bottom: 10px;
+  }
+  
+  .project-scope p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
