@@ -94,7 +94,7 @@
   padding: 10px 0;
   display: flex;
   flex-direction: column;
-  min-width: 350px;
+  min-width: 300px;
   z-index: 1000;
 }
 
@@ -110,7 +110,7 @@
   position: fixed;
   top: 0;
   left: 100%;
-  width: 300px;
+  width: 350px;
   height: 100%;
   background-color: #213329;
   transition: left 0.3s ease;
@@ -149,7 +149,7 @@
   padding: 10px 0;
   display: flex;
   flex-direction: column;
-  min-width: 100%;
+  max-width: 85%;
   z-index: 1000;
   transition: all 0.3s ease;
 }

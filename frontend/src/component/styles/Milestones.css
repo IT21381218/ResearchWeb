@@ -1,7 +1,6 @@
 /* Milestones.css */
 
 .Milestones-container {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #476e57;
@@ -9,6 +8,7 @@
 }
 
 .timeline-container {
+    top: 20px;
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
