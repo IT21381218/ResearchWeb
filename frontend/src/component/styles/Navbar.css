@@ -44,6 +44,7 @@
   position: relative;
   transition: color 0.3s ease;
 }
+
 /* Underline Animation */
 .navbar-links li::after {
   content: '';
@@ -60,6 +61,13 @@
   width: 100%;
   left: 0;
 }
+
+.navbar-links li.active::after {
+  width: 100%;
+  left: 0;
+  background-color: #f57702; /* Color of the active underline */
+}
+
 /* Dropdown with Icon */
 .dropdown {
   position: relative;
