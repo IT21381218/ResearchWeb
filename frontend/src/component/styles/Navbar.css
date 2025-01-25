@@ -118,7 +118,7 @@
   position: fixed;
   top: 0;
   left: 100%;
-  width: 350px;
+  width: 900px;
   height: 100%;
   background-color: #213329;
   transition: left 0.3s ease;
@@ -136,9 +136,8 @@
 }
 
 .sidebar-links li {
-  margin: 15px 0;
+  margin: 30px 0;
   font-size: 1.2rem;
-  font-weight: 500;
   color: white;
   cursor: pointer;
   transition: color 0.3s ease;
@@ -190,14 +189,14 @@
 }
 
 /* Media Queries for Responsiveness */
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .navbar-links {
     display: none;
   }
   .navbar-menu-icon {
     display: block;
   }
-}
+} */
 
 @media (max-width: 768px) {
   .navbar-links {

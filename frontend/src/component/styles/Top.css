@@ -145,7 +145,6 @@ body {
   flex: 1;
   max-width: 50%;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 .top-description {

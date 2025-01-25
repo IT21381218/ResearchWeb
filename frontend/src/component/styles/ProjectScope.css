@@ -30,7 +30,7 @@
   justify-content: center;
   align-items: center;
   padding: 40px 20px;
-  background-color: #ffffff;
+  background-color: #f2f7f4;
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   margin-bottom: 40px;
@@ -80,10 +80,6 @@
   text-align: justify;
   margin-top: 20px;
   transition: color 0.3s ease;
-}
-
-.literature-survey-text p:hover {
-  color: #f57702;
 }
 
 /* Research Gap Section Styling */
@@ -210,7 +206,7 @@
 }
 
 .objective-card {
-  background-color: #f9f9f9;
+  background: linear-gradient(135deg, #6f987e, #c8eafd); 
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -218,10 +214,6 @@
   animation: fadeIn 0.8s ease;
 }
 
-.objective-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
-}
 
 .objective-card h3 {
   font-size: 1.4rem;
@@ -375,7 +367,7 @@
   }
 
   .research-gap-item {
-    width: 48%;
+    width: 100%;
   }
 
   .research-problem-top {
