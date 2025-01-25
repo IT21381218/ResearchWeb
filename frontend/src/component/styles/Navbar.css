@@ -14,10 +14,6 @@
   transition: background-color 0.3s ease;
 }
 
-.navbar:hover {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
-}
-
 /* Logo Styling */
 .navbar-logo {
   font-size: 1.8rem;
@@ -48,12 +44,6 @@
   position: relative;
   transition: color 0.3s ease;
 }
-
-/* Hover Effect for Links */
-/* .navbar-links li:hover {
-  color: #f57702;
-} */
-
 /* Underline Animation */
 .navbar-links li::after {
   content: '';
@@ -70,7 +60,6 @@
   width: 100%;
   left: 0;
 }
-
 /* Dropdown with Icon */
 .dropdown {
   position: relative;
@@ -114,4 +103,125 @@
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+/* Mobile Sidebar Menu */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 300px;
+  height: 100%;
+  background-color: #213329;
+  transition: left 0.3s ease;
+  z-index: 999;
+}
+
+.sidebar.open {
+  left: 20%;
+}
+
+.sidebar-links {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+
+.sidebar-links li {
+  margin: 15px 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+/* Mobile Dropdown Menu */
+.mobile-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 30px; /* Adjusted for mobile */
+  left: 0;
+  background-color: #3b604b;
+  border-radius: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.mobile-dropdown-menu li {
+  padding: 5px 20px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar .dropdown:hover .mobile-dropdown-menu {
+  display: block;
+}
+
+/* Mobile Menu Icon */
+.navbar-menu-icon {
+  display: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.navbar-menu-icon .menu-bar {
+  display: block;
+  width: 30px;
+  height: 4px;
+  margin: 5px auto;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .navbar-links {
+    display: none;
+  }
+  .navbar-menu-icon {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+  .navbar-menu-icon {
+    display: block;
+  }
+
+  /* Show Dropdown in Mobile */
+  .mobile-dropdown-menu {
+    display: block;
+    animation: slideIn 0.3s ease-out;
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-links {
+    display: none;
+  }
+  .navbar-menu-icon {
+    display: block;
+  }
 }
