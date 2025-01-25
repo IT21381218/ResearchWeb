@@ -1,6 +1,8 @@
 import React from 'react';
 import './styles/ProjectScope.css';
 import { FaSearch, FaExclamationCircle, FaShareAlt } from 'react-icons/fa'; // Import the icons
+import Marquee from "react-fast-marquee";
+import { FaReact, FaNodeJs, FaPython, FaDatabase, FaHtml5, FaCss3Alt, FaJsSquare } from "react-icons/fa"; // Import icons
 
 const ProjectScope = () => {
   return (
@@ -146,10 +148,44 @@ const ProjectScope = () => {
   </div>
 </section>
 
-      <section id="technologies">
-        <h2>Technologies</h2>
-        <p>Details about the technologies go here...</p>
-      </section>
+
+<section id="technologies" className="technologies">
+  <h2>Technologies</h2>
+  <Marquee gradient={false} speed={50} className="technologies-marquee">
+    <div className="icon-wrapper">
+      <div className="tech-item">
+        <FaReact className="tech-icon" title="React" />
+        <p>React</p>
+      </div>
+      <div className="tech-item">
+        <FaNodeJs className="tech-icon" title="Node.js" />
+        <p>Node.js</p>
+      </div>
+      <div className="tech-item">
+        <FaPython className="tech-icon" title="Python" />
+        <p>Python</p>
+      </div>
+      <div className="tech-item">
+        <FaDatabase className="tech-icon" title="Database" />
+        <p>Database</p>
+      </div>
+      <div className="tech-item">
+        <FaHtml5 className="tech-icon" title="HTML5" />
+        <p>HTML5</p>
+      </div>
+      <div className="tech-item">
+        <FaCss3Alt className="tech-icon" title="CSS3" />
+        <p>CSS3</p>
+      </div>
+      <div className="tech-item">
+        <FaJsSquare className="tech-icon" title="JavaScript" />
+        <p>JavaScript</p>
+      </div>
+    </div>
+  </Marquee>
+</section>
+
+
     </div>
   );
 };

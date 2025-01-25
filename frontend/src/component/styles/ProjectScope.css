@@ -303,3 +303,55 @@
   transform: scale(1.05);
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
 }
+
+/* Technologies Section Styling */
+.technologies {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.technologies h2 {
+  font-size: 2rem;
+  color: #f57702;
+  margin-bottom: 15px;
+}
+
+.technologies-marquee {
+  margin-top: 0px;
+}
+
+.icon-wrapper {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  min-height: 100px;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.tech-icon {
+  margin-top: 10px;
+  font-size: 3rem;
+  color: #f57702;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.tech-icon:hover {
+  transform: scale(1.2);
+  color: #333;
+}
+
+.tech-item p {
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+}
