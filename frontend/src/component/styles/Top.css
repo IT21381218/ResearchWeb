@@ -189,7 +189,6 @@ body {
 @media (max-width: 1200px) {
   .parallax-images {
       align-items: center;
-      margin-top: 100px;
   }
 
   .parallax-img {
@@ -209,7 +208,6 @@ body {
 @media (max-width: 768px) {
   .parallax-images {
       align-items: center;
-      margin-top: 50px;
   }
 
   .parallax-img {
@@ -237,7 +235,6 @@ body {
 @media (max-width: 480px) {
   .parallax-images {
       align-items: center;
-      margin-top: 30px;
   }
 
   .parallax-img {

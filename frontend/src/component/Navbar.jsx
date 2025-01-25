@@ -29,16 +29,20 @@ const Navbar = () => {
           className="logo-img"
         />
       </div>
+      <div className="navbar-menu-icon" onClick={toggleMenu}>
+        <span className="menu-bar"></span>
+        <span className="menu-bar"></span>
+        <span className="menu-bar"></span>
+      </div>
       <ul className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
         <li onClick={() => handleScroll('top')}>Home</li>
         <li
           className="dropdown"
-          onMouseEnter={toggleDropdown}
-          onMouseLeave={toggleDropdown}
+          onClick={toggleDropdown}
         >
           <span>
             <span className="dropdown-text">Project Scope</span>
-            <span className="dropdown-icon">▼</span>
+            <span className={`dropdown-icon ${isDropdownOpen ? 'open' : ''}`}>▼</span>
           </span>
           {isDropdownOpen && (
             <ul className="dropdown-menu">
@@ -67,11 +71,6 @@ const Navbar = () => {
         <li onClick={() => handleScroll('Documentation')}>Documentation</li>
         <li onClick={() => handleScroll('about')}>About Us</li>
       </ul>
-      <div className="navbar-menu-icon" onClick={toggleMenu}>
-        <span className="menu-bar"></span>
-        <span className="menu-bar"></span>
-        <span className="menu-bar"></span>
-      </div>
     </nav>
   );
 };
