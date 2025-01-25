@@ -355,3 +355,147 @@
   color: #333;
   font-weight: 500;
 }
+
+
+/* Responsive styles for max-width: 1200px */
+@media (max-width: 1200px) {
+  .literature-survey-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .literature-survey-image,
+  .literature-survey-text {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .research-gap-content {
+    flex-wrap: wrap;
+  }
+
+  .research-gap-item {
+    width: 48%;
+  }
+
+  .research-problem-top {
+    flex-direction: column;
+  }
+
+  .research-problem-left,
+  .research-problem-right {
+    width: 100%;
+  }
+
+  .methodology-content {
+    flex-direction: column;
+  }
+
+  .methodology-text,
+  .methodology-image {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+/* Responsive styles for max-width: 768px */
+@media (max-width: 768px) {
+  .project-scope {
+    padding: 20px 10px;
+  }
+
+  .project-scope h2 {
+    font-size: 1.5rem;
+  }
+
+  .project-scope p {
+    font-size: 0.9rem;
+  }
+
+  .literature-survey-content {
+    gap: 20px;
+  }
+
+  .research-gap-content {
+    gap: 20px;
+  }
+
+  .research-gap-item {
+    width: 100%;
+  }
+
+  .objectives-container {
+    grid-template-columns: 1fr;
+  }
+
+  .tech-icon {
+    font-size: 2.5rem;
+  }
+
+  .methodology-text p {
+    font-size: 1rem;
+  }
+}
+
+/* Responsive styles for max-width: 480px */
+@media (max-width: 480px) {
+  .project-scope {
+    padding: 10px 5px;
+  }
+
+  .project-scope h2 {
+    font-size: 1.2rem;
+  }
+
+  .project-scope p {
+    font-size: 0.8rem;
+  }
+
+  .literature-survey-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .literature-survey-text p {
+    font-size: 0.9rem;
+  }
+
+  .research-gap-content {
+    gap: 10px;
+  }
+
+  .research-gap-item {
+    padding: 15px;
+  }
+
+  .research-gap-icon {
+    font-size: 2rem;
+  }
+
+  .research-gap-item h3 {
+    font-size: 1.2rem;
+  }
+
+  .objective-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .objective-card p {
+    font-size: 0.9rem;
+  }
+
+  .methodology-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .methodology-text p {
+    font-size: 0.9rem;
+  }
+
+  .tech-icon {
+    font-size: 2rem;
+  }
+
+  .tech-item p {
+    font-size: 0.8rem;
+  }
+}

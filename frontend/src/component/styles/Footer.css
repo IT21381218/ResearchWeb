@@ -1,69 +1,121 @@
 /* Footer Styles */
 .footer {
-    background-color: #476e57;
-    color: white;
-    padding: 40px 0;
-  }
-  
-  .footer-content {
-    display: flex;
-    justify-content: center; /* Center all content */
-    padding: 0 20px;
-  }
-  
+  background-color: #476e57;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center; /* Center all content */
+  padding: 0 20px;
+  flex-wrap: wrap; /* Enable wrapping for smaller screens */
+}
+
+.footer-section {
+  width: 30%;
+  margin: 0 15px; /* Add margin between sections */
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-section p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  color: #f2f7f4;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #c3d7c9;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #3b604b;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Responsive Styles */
+
+/* For screens smaller than 1200px */
+@media (max-width: 1200px) {
   .footer-section {
-    width: 30%;
-    margin: 0 15px; /* Add margin between sections */
+    width: 45%;
+    margin-bottom: 20px;
   }
-  
-  .footer-section h3 {
-    font-size: 20px;
-    margin-bottom: 15px;
-    color: #fff;
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .footer-section p {
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  
-  .footer-section ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-section ul li {
-    margin-bottom: 10px;
-  }
-  
-  .footer-section ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 14px;
-  }
-  
-  .footer-section ul li a:hover {
-    text-decoration: underline;
-  }
-  
-  .social-icons a {
-    color: #f2f7f4;
-    margin: 0 10px;
-    transition: color 0.3s;
-  }
-  
-  .social-icons a:hover {
-    color: #c3d7c9;
-  }
-  
-  .footer-bottom {
+
+  .footer-section {
+    width: 80%;
     text-align: center;
-    padding: 10px 0;
-    background-color: #3b604b;
   }
-  
+
+  .social-icons a {
+    margin: 0 5px;
+  }
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+  .footer-section h3 {
+    font-size: 18px;
+  }
+
+  .footer-section p,
+  .footer-section ul li a {
+    font-size: 12px;
+  }
+
+  .social-icons a {
+    font-size: 24px; /* Adjust icon size for smaller screens */
+    margin: 0 5px;
+  }
+
+  .footer {
+    padding: 20px 0;
+  }
+
   .footer-bottom p {
-    font-size: 14px;
-    margin: 0;
+    font-size: 12px;
   }
-  
+}
