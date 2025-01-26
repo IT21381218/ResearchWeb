@@ -58,10 +58,10 @@ const AboutUs = () => {
       },
     },
     {
-      name: "You",
+      name: "Dasunika Ekanayake",
       position: "Team Member",
       description: "Bachelor of Science (Hons) in Information Technology Specializing in Information Technology",
-      image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734375943/eehanee/807900008838988707_g6kwsc.png",
+      image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737920928/cattle%20site/dasunika_bkqlaa.jpg",
       social: {
         linkedin: "https://linkedin.com/in/yourprofile",
         facebook: "https://github.com/yourprofile",
