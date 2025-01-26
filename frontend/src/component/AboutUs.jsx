@@ -1,27 +1,27 @@
 import React from 'react';
-import { FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaFacebook , FaGithub } from 'react-icons/fa';
 import './styles/AboutUs.css';
 
 const AboutUs = () => {
   const supervisors = [
     {
-      name: "Dr. John Smith",
+      name: "Mr. S.M.B Harshanath",
       position: "Supervisor",
       description: "Dr. John Smith is an expert in software engineering with over 20 years of experience in academia and industry.",
       image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734375943/eehanee/807900008838988707_g6kwsc.png",
       social: {
         linkedin: "https://linkedin.com/in/johnsmith",
-        twitter: "https://twitter.com/johnsmith",
+        facebook: "https://twitter.com/johnsmith",
       },
     },
     {
-      name: "Dr. Jane Doe",
+      name: "Ms. Manori Gamage",
       position: "Co-Supervisor",
-      description: "Dr. Jane Doe specializes in artificial intelligence and machine learning, contributing to cutting-edge research in the field.",
+      description: "Senior Lecturer, Sri Lanka Institute of Information Technology",
       image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734375943/eehanee/807900008838988707_g6kwsc.png",
       social: {
         linkedin: "https://linkedin.com/in/janedoe",
-        twitter: "https://twitter.com/janedoe",
+        facebook: "https://twitter.com/janedoe",
       },
     },
   ];
@@ -29,42 +29,42 @@ const AboutUs = () => {
   const teamMembers = [
     {
       name: "Poornaka Perera",
-      position: "Group Leader",
-      description: "Alice is a front-end developer with a passion for creating responsive and user-friendly web applications.",
+      position: "Team Leader",
+      description: "Bachelor of Science (Hons) in Information Technology Specializing in Information Technology",
       image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737716972/cattle%20site/Poornaka_u8bpxr.jpg",
       social: {
         linkedin: "https://linkedin.com/in/alicebrown",
-        github: "https://github.com/alicebrown",
+        facebook: "https://www.facebook.com/share/1FHNrdDR9y/?mibextid=qi2Omg",
       },
     },
     {
-      name: "Bob Johnson",
+      name: "Eehanee Hettiarachchi",
       position: "Team Member",
-      description: "Bob is a back-end developer with expertise in databases and server-side technologies.",
-      image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734375943/eehanee/807900008838988707_g6kwsc.png",
+      description: "Bachelor of Science (Hons) in Information Technology Specializing in Information Technology",
+      image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737917296/cattle%20site/Eehanee_Hettiarachchi_-_Copy_tudpl9.png",
       social: {
-        linkedin: "https://linkedin.com/in/bobjohnson",
-        github: "https://github.com/bobjohnson",
+        linkedin: "https://www.linkedin.com/in/eehanee-hettiarachchi-322435219/",
+        facebook: "https://www.facebook.com/share/1FHNrdDR9y/?mibextid=qi2Omg",
       },
     },
     {
-      name: "Charlie Lee",
+      name: "Thesarana Dissanayake",
       position: "Team Member",
-      description: "Charlie is a full-stack developer, skilled in both front-end and back-end technologies, with a focus on scalability.",
-      image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734375943/eehanee/807900008838988707_g6kwsc.png",
+      description: "Bachelor of Science (Hons) in Information Technology Specializing in Information Technology",
+      image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737917297/cattle%20site/Thesarana_ittl0w.jpg",
       social: {
-        linkedin: "https://linkedin.com/in/charlielee",
-        github: "https://github.com/charlielee",
+        linkedin: "http://www.linkedin.com/in/bthesarana",
+        facebook: "https://web.facebook.com/thesarana.dissanayake/",
       },
     },
     {
       name: "You",
       position: "Team Member",
-      description: "You are a dedicated team member with a passion for coding and problem-solving.",
+      description: "Bachelor of Science (Hons) in Information Technology Specializing in Information Technology",
       image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734375943/eehanee/807900008838988707_g6kwsc.png",
       social: {
         linkedin: "https://linkedin.com/in/yourprofile",
-        github: "https://github.com/yourprofile",
+        facebook: "https://github.com/yourprofile",
       },
     },
   ];
@@ -76,9 +76,9 @@ const AboutUs = () => {
           <FaLinkedin />
         </a>
       )}
-      {social.twitter && (
-        <a href={social.twitter} target="_blank" rel="noopener noreferrer" className="social-btn">
-          <FaTwitter />
+      {social.facebook && (
+        <a href={social.facebook } target="_blank" rel="noopener noreferrer" className="social-btn">
+          <FaFacebook  />
         </a>
       )}
       {social.github && (
