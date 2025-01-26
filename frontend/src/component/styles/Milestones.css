@@ -37,7 +37,7 @@
     left: 20px;
     width: 4px;
     height: 100%;
-    background-color: #121c17;
+    background-color: #f2f7f4;
     z-index: 1;
 }
 
@@ -51,6 +51,7 @@
     margin-left: 50px;
     opacity: 0;
     transform: translateY(50px);
+    border: 5px solid #f2f7f4;
 }
 
 .timeline-card.visible {
@@ -67,14 +68,14 @@
     height: 0;
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
-    border-right: 16px solid #121c17;
+    border-right: 16px solid #f2f7f4;
     z-index: 2;
 }
 
 .timeline-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
+    transform: scale(1.02);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+  }
 
 .card-content {
     display: flex;
@@ -154,6 +155,10 @@
     .type {
         font-size: 0.85rem;
     }
+    .timeline::before {
+        left: 0px;
+        width: 5px;
+    }
 }
 
 /* Max-width 768px */
@@ -187,8 +192,8 @@
     }
 
     .timeline::before {
-        left: 10px;
-        width: 2px;
+        left: -5px;
+        width: 5px;
     }
 }
 
@@ -224,7 +229,7 @@
     }
 
     .timeline::before {
-        left: 5px;
-        width: 1px;
+        left: -15px;
+        width: 5px;
     }
 }
