@@ -90,7 +90,7 @@ const CenterImage = () => {
           backgroundSize,
           opacity,
           backgroundImage:
-            "url(https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737744960/cattle%20site/822343704682494169_1_gybyr3.png)",
+            "url(https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737913718/cattle%20site/top2_jq9sz1.png)",
         }}
       />
       {/* Mobile Center Image */}
@@ -101,7 +101,7 @@ const CenterImage = () => {
           backgroundSize,
           opacity,
           backgroundImage:
-            "url(https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734596184/zade/x_pwhs8v.png)", // Replace with mobile-specific image
+            "url(https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737914676/823077761838077180_1_xelt8w.png)", // Replace with mobile-specific image
         }}
       />
     </>
