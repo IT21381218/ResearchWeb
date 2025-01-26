@@ -110,6 +110,7 @@
   font-weight: 600;
   text-align: center;
 }
+
 .research-gap-item h3 {
   font-size: 1.4rem;
   color: #213329;
@@ -438,6 +439,7 @@
   .methodology-text p {
     font-size: 1rem;
   }
+  
 }
 
 /* Responsive styles for max-width: 480px */
@@ -465,6 +467,9 @@
   .research-gap-content {
     gap: 10px;
   }
+  .research-gap-heading h2 {
+    font-size: 1.5rem;
+  }
 
   .research-gap-item {
     padding: 15px;
@@ -478,8 +483,28 @@
     font-size: 1.2rem;
   }
 
-  .objective-card h3 {
+  .research-problem-left h2 {
+    font-size: 1.5rem;
+
+  }
+  
+  .research-problem-left h3 {
     font-size: 1.2rem;
+  }
+  
+  .research-problem-left p {
+    font-size: 0.9rem;
+  }
+
+  .research-solution h2 {
+    font-size: 1.5rem;
+  }
+  
+  .research-solution p {
+    font-size: 0.9rem;
+  }
+  .research-objectives h2 {
+    font-size: 1.5rem;
   }
 
   .objective-card p {
@@ -492,6 +517,9 @@
 
   .methodology-text p {
     font-size: 0.9rem;
+  }
+  .technologies h2 {
+    font-size: 1.5rem;
   }
 
   .tech-icon {

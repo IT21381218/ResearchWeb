@@ -7,7 +7,7 @@
 }
 
 .about-us h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 30px;
   color: #121c17;
 }
@@ -17,9 +17,9 @@
 }
 
 .supervisors-section h2, .team-section h2 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-bottom: 20px;
-  color: #121c17;
+  color: #f57702;
 }
 
 /* Flexbox for Horizontal Layout */
