@@ -112,21 +112,21 @@ const ParallaxImages = () => {
   return (
     <div className="parallax-images">
       <ParallaxImg
-        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734463939/zade/808278120579776760_myyvy5.png"
+        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737919875/cattle%20site/823045008417489391_dtr6qh.png"
         alt="Space launch"
         start={0}
         end={200}
         className="parallax-img img-left"
       />
       <ParallaxImg
-        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734464358/zade/808279907286205610_oayzce.png"
+        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737920686/cattle%20site/823123765232872001_loa6mr.png"
         alt="Spacecraft"
         start={200}
         end={-250}
         className="parallax-img img-center"
       />
       <ParallaxImg
-        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734464194/zade/808279198616588441_wjvzdf.png"
+        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737920243/cattle%20site/823122485332586303_ea9jzl.png"
         alt="Satellite"
         start={-200}
         end={200}

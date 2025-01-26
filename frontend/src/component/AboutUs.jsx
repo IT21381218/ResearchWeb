@@ -7,20 +7,20 @@ const AboutUs = () => {
     {
       name: "Mr. S.M.B Harshanath",
       position: "Supervisor",
-      description: "Dr. John Smith is an expert in software engineering with over 20 years of experience in academia and industry.",
-      image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734375943/eehanee/807900008838988707_g6kwsc.png",
+      description: "Senior Lecturer, Sri Lanka Institute of Information Technology.",
+      image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737918830/cattle%20site/scan_image_1508475670-SMBH_bg81gq.jpg",
       social: {
-        linkedin: "https://linkedin.com/in/johnsmith",
-        facebook: "https://twitter.com/johnsmith",
+        linkedin: "https://www.linkedin.com/in/buddhikaharshanathsm/",
+        facebook: "https://www.facebook.com/smbharshanath",
       },
     },
     {
       name: "Ms. Manori Gamage",
       position: "Co-Supervisor",
       description: "Senior Lecturer, Sri Lanka Institute of Information Technology",
-      image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734375943/eehanee/807900008838988707_g6kwsc.png",
+      image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737918830/cattle%20site/scan_image_1509944773-GamageMP_qppkin.jpg",
       social: {
-        linkedin: "https://linkedin.com/in/janedoe",
+        linkedin: "https://www.linkedin.com/in/manori-gamage-a95b3a177/",
         facebook: "https://twitter.com/janedoe",
       },
     },
