@@ -12,6 +12,17 @@ code {
     monospace;
 }
 
+@font-face {
+  font-family: main;
+  src: url(../public/AgenorNeue-Regular.otf);
+}
+
+h1,span,h2,h3,p,li,a{
+  font-family: main;
+
+}
+
+
 /* Custom Scrollbar Styles */
 ::-webkit-scrollbar {
   width: 5px; /* Width of the scrollbar */

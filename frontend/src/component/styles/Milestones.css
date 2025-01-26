@@ -3,7 +3,7 @@
 .Milestones-container {
     margin: 0;
     padding: 0;
-    background-color: #476e57;
+    background-color: #476e577e;
 }
 
 .timeline-container {
@@ -19,6 +19,7 @@
     font-size: 2rem;
     margin-bottom: 20px;
     color: #f2f7f4;
+    
 }
 
 .timeline {

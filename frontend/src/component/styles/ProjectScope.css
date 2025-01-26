@@ -1,6 +1,5 @@
 .project-scope {
   padding: 40px 20px;
-  font-family: 'Poppins', sans-serif;
   background-color: #476e57;
 }
 
@@ -91,7 +90,7 @@
 }
 
 .research-gap-item {
-  background-color: #ffffff;
+  background-color: #f2f7f4;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -121,7 +120,7 @@
 
 /* Research Problem & Solution Section Styling */
 .research-problem {
-  background-color: #ffffff;
+  background-color: #f2f7f4;
   padding: 40px 20px;
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -185,7 +184,7 @@
 /* Research Objectives Section Styling */
 .research-objectives {
   padding: 40px 20px;
-  background-color: #ffffff;
+  background-color: #f2f7f4;
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   margin-bottom: 80px;
@@ -206,7 +205,7 @@
 }
 
 .objective-card {
-  background: linear-gradient(135deg, #6f987e, #c8eafd); 
+  background: linear-gradient(135deg, #6f987e, #c3d7c9); 
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -246,7 +245,7 @@
 /* Methodology Section Styling */
 .methodology {
   padding: 40px 20px;
-  background-color: #ffffff;
+  background-color: #f2f7f4;
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   margin-bottom: 80px;
@@ -299,7 +298,7 @@
 /* Technologies Section Styling */
 .technologies {
   padding: 40px 20px;
-  background-color: #f9f9f9;
+  background-color: #f2f7f4;
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   margin-bottom: 80px;
