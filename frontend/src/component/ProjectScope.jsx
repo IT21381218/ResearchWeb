@@ -27,7 +27,9 @@ const ProjectScope = () => {
 
       {/* Research Gap Section */}
       <section id="research-gap">
-        <h2>Research Gap</h2>
+        <div className='research-gap-heading'>
+          <h2>Research Gap</h2>
+        </div>
         <div className="research-gap-content">
           <div className="research-gap-item">
             <FaSearch className="research-gap-icon" />
@@ -63,6 +65,7 @@ const ProjectScope = () => {
         <div className="research-problem-top">
           <div className="research-problem-left">
             <h2>Research Problem</h2>
+            <h3>How to classify pest and diseases in coconut and provide surveillance to people in real time?</h3>
             <p>
               The research problem addresses the challenges and issues that exist within the current body of knowledge. It identifies gaps
               and outlines the main areas where further investigation is needed to make progress in the field. The research solution proposes a methodology or approach to address the identified problem. It outlines the steps and strategies
