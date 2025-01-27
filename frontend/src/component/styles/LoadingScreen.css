@@ -1,0 +1,58 @@
+/* styles/LoadingScreen.css */
+.loading-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #476e57;
+  }
+  
+  .loading-content {
+    text-align: center;
+  }
+  
+  .loading-content h1 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #f2f7f4;
+  }
+  
+  /* Responsive styles */
+  
+  /* For screens with a max width of 1200px */
+  @media (max-width: 1200px) {
+    .loading-content h1 {
+      font-size: 1.3rem;
+    }
+  
+    l-cardio {
+      size: 80; /* Slightly reduce spinner size */
+    }
+  }
+  
+  /* For screens with a max width of 768px */
+  @media (max-width: 768px) {
+    .loading-content h1 {
+      font-size: 1.2rem;
+    }
+  
+    l-cardio {
+      size: 70; /* Further reduce spinner size */
+    }
+  }
+  
+  /* For screens with a max width of 480px */
+  @media (max-width: 480px) {
+    .loading-content h1 {
+      font-size: 1rem;
+    }
+  
+    l-cardio {
+      size: 60; /* Adjust spinner size for small screens */
+    }
+  
+    .loading-screen {
+      padding: 10px; /* Add some padding for smaller screens */
+    }
+  }
+  

@@ -1,5 +1,4 @@
-
-  .background-video {
+.background-video {
     position: fixed; /* Fixed background to remain static during scrolling */
     top: 0;
     left: 0;
