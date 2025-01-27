@@ -1,0 +1,134 @@
+/* Base Styles */
+.countup-section {
+    padding: 50px 20px;
+    background-color: #f2f7f4;
+    text-align: center;
+  }
+  
+  .countup-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #213329;
+  }
+  
+  .countup-title .highlight {
+    color: #f57702; /* Highlight color for 'Sri Lanka' */
+  }
+  
+  /* Flexbox Container */
+  .countup-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+  
+  /* Card Styles */
+  .countup-card {
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* CountUp Number Styling */
+  .countup-number {
+    font-size: 3rem;
+    color: #f57702;
+    margin: 15px 0;
+  }
+  
+  .countup-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #273e31;
+  }
+  
+  .countup-card p {
+    font-size: 1rem;
+    color: #273e31;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* For screens larger than 1200px */
+  @media (max-width: 1200px) {
+    .countup-title {
+      font-size: 1.8rem;
+    }
+  
+    .countup-container {
+      gap: 80px;
+    }
+  
+    .countup-card {
+      max-width: 350px;
+    }
+  
+    .countup-number {
+      font-size: 2.8rem;
+    }
+  
+    .countup-card h2 {
+      font-size: 1.4rem;
+    }
+  
+    .countup-card p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* For tablets and smaller screens (max-width: 768px) */
+  @media (max-width: 768px) {
+    .countup-title {
+      font-size: 1.5rem;
+    }
+  
+    .countup-container {
+      gap: 50px;
+    }
+  
+    .countup-card {
+      max-width: 300px;
+    }
+  
+    .countup-number {
+      font-size: 2.5rem;
+    }
+  
+    .countup-card h2 {
+      font-size: 1.3rem;
+    }
+  
+    .countup-card p {
+      font-size: 0.85rem;
+    }
+  }
+  
+  /* For mobile screens (max-width: 480px) */
+  @media (max-width: 480px) {
+    .countup-title {
+      font-size: 1.3rem;
+    }
+  
+    .countup-container {
+      gap: 10px;
+    }
+  
+    .countup-card {
+      max-width: 280px;
+      padding: 15px;
+    }
+  
+    .countup-number {
+      font-size: 2rem;
+    }
+  
+    .countup-card h2 {
+      font-size: 1.2rem;
+    }
+  
+    .countup-card p {
+      font-size: 0.8rem;
+    }
+  }
+  

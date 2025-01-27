@@ -14,6 +14,8 @@ const Navbar = () => {
       section.scrollIntoView({ behavior: 'smooth' });
       setActiveSection(id); // Set the active section when user clicks a link
     }
+    // Close the sidebar after clicking a menu item (mobile)
+    setIsMenuOpen(false);
   };
 
   // Function to update active section based on scroll position
@@ -60,9 +62,15 @@ const Navbar = () => {
 
       {/* Hamburger Icon for Mobile */}
       <div className="navbar-menu-icon" onClick={toggleMenu}>
-        <span className="menu-bar"></span>
-        <span className="menu-bar"></span>
-        <span className="menu-bar"></span>
+        {isMenuOpen ? (
+          <span className="close-icon">×</span> // Close icon when menu is open
+        ) : (
+          <>
+            <span className="menu-bar"></span>
+            <span className="menu-bar"></span>
+            <span className="menu-bar"></span>
+          </>
+        )}
       </div>
 
       {/* Navbar Links for Desktop */}

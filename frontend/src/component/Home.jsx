@@ -6,6 +6,7 @@ import Documentation from './Documentation';
 import Milestones from './Milestones';
 import Footer from './Footer';
 import ProjectScope from './ProjectScope';
+import CountUpSection from './CountUpSection';
 
 const Home = () => {
   const [currentSection, setCurrentSection] = useState('');
@@ -30,6 +31,9 @@ const Home = () => {
       <Navbar />
       <section id="top" className={currentSection === 'top' ? 'slide-in' : ''}>
         <Top />
+      </section>
+      <section id="countUpSection" className={currentSection === 'countUpSection' ? 'slide-in' : ''}>
+        <CountUpSection />
       </section>
       <section id="top" className={currentSection === 'top' ? 'slide-in' : ''}>
         <ProjectScope />
