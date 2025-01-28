@@ -17,6 +17,7 @@ const LoadingScreen = ({ onLoaded }) => {
       "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737919875/cattle%20site/823045008417489391_dtr6qh.png",
       "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737920686/cattle%20site/823123765232872001_loa6mr.png",
       "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737920243/cattle%20site/823122485332586303_ea9jzl.png",
+      "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1738090593/cattle%20site/823032729105978965_2_y9bc56.png",
     ];
 
     const preloadAssets = async () => {
