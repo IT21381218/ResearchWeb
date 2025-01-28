@@ -8,18 +8,20 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section">
           <h3>Contact Us</h3>
-          <p>Address: 1234 Street Name, City, Country</p>
-          <p>Phone: +1 (234) 567-890</p>
-          <p>Email: contact@example.com</p>
+          <p>SLIIT Malabe Campus, New Kandy Rd, Malabe 10115</p>
+          <p>Phone: +94 71 477 7848</p>
+          <p>Email: cattlesite@gmail.com</p>
         </div>
 
         <div className="footer-section">
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#literature-survey">Project Scope</a></li>
+            <li><a href="#Milestones">Milestones</a></li>
+            <li><a href="#Documentation">Documentation</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contactUs">Contact Us</a></li>
           </ul>
         </div>
 
@@ -43,7 +45,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; 2025 Your Company. All rights reserved.</p>
+        <p>&copy; 2025 Cattle Site. All rights reserved.</p>
       </div>
     </footer>
   );

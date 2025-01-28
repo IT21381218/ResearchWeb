@@ -1,0 +1,216 @@
+/* Overall Contact Us Background */
+.contact-us {
+    background: #476e57;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 100px;
+  }
+  
+  /* Frame with Background Image */
+  .contact-us-frame {
+    width: 100%;
+    max-width: 1200px;
+    padding: 40px;
+    background: url('https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737913718/cattle%20site/top2_jq9sz1.png') no-repeat center center/cover;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Contact Us Container */
+  .contact-us-container {
+    max-width: 600px;
+    margin: 0;
+    padding: 20px;
+    background: #f2f7f4de;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-us-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #121c17;
+    font-size: 2rem;
+  }
+  
+  /* Form Styling */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #273e31;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    font-family: main;
+    color: #213329;
+    background: #f2f7f4;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #476e57;
+    outline: none;
+    color: #213329;
+  }
+  
+  /* Submit Button */
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #f2f7f4;
+    background-color: #476e57;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #33503f;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Toast Notifications */
+  .Toastify__toast {
+    font-size: 0.9rem;
+  }
+  
+  .form-group textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    resize: none;
+    width: 100%;
+    height: 120px;
+  }
+  
+  .form-group textarea:focus {
+    border-color: #476e57;
+    outline: none;
+  }
+  
+  /* Placeholder Text Styling */
+  .form-group input::placeholder,
+  .form-group textarea::placeholder {
+    color: rgb(143, 143, 143);
+    opacity: 1;
+  }
+  
+  .form-group input:focus::placeholder,
+  .form-group textarea:focus::placeholder {
+    color: rgb(143, 143, 143);
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* For screens smaller than 1200px */
+  @media (max-width: 1200px) {
+    .contact-us {
+      padding: 80px;
+    }
+  
+    .contact-us-frame {
+      padding: 30px;
+    }
+  
+    .contact-us-container {
+      max-width: 500px;
+      padding: 15px;
+    }
+  
+    .contact-us-container h2 {
+      font-size: 1.8rem;
+    }
+  
+    button {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* For screens smaller than 768px */
+  @media (max-width: 768px) {
+    .contact-us {
+      padding: 50px;
+      justify-content: center; /* Center content for smaller screens */
+    }
+  
+    .contact-us-frame {
+      padding: 20px;
+    }
+  
+    .contact-us-container {
+      max-width: 400px;
+    }
+  
+    .contact-us-container h2 {
+      font-size: 1.6rem;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    button {
+      padding: 8px 15px;
+      font-size: 0.85rem;
+    }
+  }
+  
+  /* For screens smaller than 480px */
+  @media (max-width: 480px) {
+    .contact-us {
+      padding: 30px;
+    }
+  
+    .contact-us-frame {
+      padding: 15px;
+    }
+  
+    .contact-us-container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    .contact-us-container h2 {
+      font-size: 1.4rem;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      font-size: 0.85rem;
+      padding: 6px;
+    }
+  
+    button {
+      padding: 6px 10px;
+      font-size: 0.8rem;
+    }
+  }
+  

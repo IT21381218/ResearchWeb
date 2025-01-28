@@ -20,7 +20,7 @@ const Navbar = () => {
 
   // Function to update active section based on scroll position
   const updateActiveSection = () => {
-    const sections = ['top', 'literature-survey', 'research-gap', 'research-problem', 'research-objectives', 'methodology', 'technologies', 'Milestones', 'Documentation', 'about'];
+    const sections = ['top', 'literature-survey', 'research-gap', 'research-problem', 'research-objectives', 'methodology', 'technologies', 'Milestones', 'Documentation', 'about', 'contactUs'];
     let currentSection = '';
     sections.forEach((sectionId) => {
       const section = document.getElementById(sectionId);
@@ -118,6 +118,12 @@ const Navbar = () => {
         >
           About Us
         </li>
+        <li
+          onClick={() => handleScroll('contactUs')}
+          className={classNames({ active: activeSection === 'contactUs' })}
+        >
+          Contact Us
+        </li>
       </ul>
 
       {/* Sidebar Menu for Mobile */}
@@ -165,6 +171,12 @@ const Navbar = () => {
             className={classNames({ active: activeSection === 'about' })}
           >
             About Us
+          </li>
+          <li
+            onClick={() => handleScroll('contactUs')}
+            className={classNames({ active: activeSection === 'contactUs' })}
+          >
+            Contact Us
           </li>
         </ul>
       </div>

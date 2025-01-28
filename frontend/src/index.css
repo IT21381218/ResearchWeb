@@ -17,7 +17,7 @@ code {
   src: url(../public/AgenorNeue-Regular.otf);
 }
 
-h1,span,h2,h3,p,li,a{
+h1,span,h2,h3,p,li,a,label{
   font-family: main;
 
 }

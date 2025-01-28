@@ -7,6 +7,7 @@ import Milestones from './Milestones';
 import Footer from './Footer';
 import ProjectScope from './ProjectScope';
 import CountUpSection from './CountUpSection';
+import ContactUs from './ContactUs';
 
 const Home = () => {
   const [currentSection, setCurrentSection] = useState('');
@@ -46,6 +47,9 @@ const Home = () => {
       </section>
       <section id="about" className={currentSection === 'about' ? 'slide-in' : ''}>
         <AboutUs />
+      </section>
+      <section id="contactUs" className={currentSection === 'contactUs' ? 'slide-in' : ''}>
+        <ContactUs />
       </section>
       <section id="about" className={currentSection === 'about' ? 'slide-in' : ''}>
         <Footer />
