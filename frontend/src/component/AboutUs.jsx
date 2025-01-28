@@ -33,8 +33,9 @@ const AboutUs = () => {
       description: "Bachelor of Science (Hons) in Information Technology Specializing in Information Technology",
       image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737716972/cattle%20site/Poornaka_u8bpxr.jpg",
       social: {
-        linkedin: "https://linkedin.com/in/alicebrown",
-        facebook: "https://www.facebook.com/share/1FHNrdDR9y/?mibextid=qi2Omg",
+        linkedin: "https://www.linkedin.com/in/poornaka-perera-ab56bb218/",
+        facebook: "https://www.facebook.com/poornaka.perera/",
+        facebook: "rajmalperera@gmail.com",
       },
     },
     {
