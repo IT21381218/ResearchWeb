@@ -63,8 +63,8 @@ const AboutUs = () => {
       description: "Bachelor of Science (Hons) in Information Technology Specializing in Information Technology",
       image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737920928/cattle%20site/dasunika_bkqlaa.jpg",
       social: {
-        linkedin: "https://linkedin.com/in/yourprofile",
-        facebook: "https://github.com/yourprofile",
+        linkedin: "https://www.linkedin.com/in/dasunika-ekanayake-60bab0219/",
+        facebook: "https://www.facebook.com/profile.php?id=100091995104050",
       },
     },
   ];
