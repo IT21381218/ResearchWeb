@@ -5,27 +5,57 @@ import "./styles/Milestones.css";
 
 const milestones = [
   {
-    date: "2025-01-01",
-    name: "Project Kickoff",
-    description: "Started the project with an initial meeting to define goals and responsibilities.",
+    date: "2025-01-10",
+    name: "Project Proposal",
+    description: "A Project Proposal is presented to potential sponsors or clients to receive funding or get your project approved.",
     type: ["Group"],
   },
   {
-    date: "2025-01-10",
-    name: "Wireframe Design",
-    description: "Created wireframes for the application layout and flow.",
-    type: ["Individual"],
+    date: "2024-12-06",
+    name: "Progress Presentation I",
+    description: "Progress Presentation I reviews the 50% completetion status of the project. This reveals any gaps or inconsistencies in the design/requirements.",
+    type: ["Group", "Individual"],
   },
   {
-    date: "2025-01-20",
-    name: "Prototype Development",
-    description: "Developed a working prototype of the application.",
+    date: "2025-01-25",
+    name: "Research Paper",
+    description: "Describes what you contribute to existing knowledge, giving due recognition to all work that you referred in making new knowledge",
+    type: ["Group", "Individual"],
+  },
+  {
+    date: "2025-01-25",
+    name: "Progress Presentation II",
+    description: "Conducted extensive testing to ensure the application is bug-free.",
+    type: ["Group", "Individual"],
+  },
+  {
+    date: "2025-01-25",
+    name: "MS Planner",
+    description: "Maintain a project management tool.",
     type: ["Group"],
   },
   {
     date: "2025-01-25",
-    name: "Testing Phase",
+    name: "Website Assessment",
     description: "Conducted extensive testing to ensure the application is bug-free.",
+    type: ["Group", "Individual"],
+  },
+  {
+    date: "2025-01-25",
+    name: "Logbook",
+    description: "Daily status of the project is validated through the Logbook.",
+    type: ["Individual"],
+  },
+  {
+    date: "2025-01-25",
+    name: "Final Report",
+    description: "Final Report evalutes the completed project done throughout the year.",
+    type: ["Group", "Individual"],
+  },
+  {
+    date: "2025-01-25",
+    name: "Final Presentation & Viva",
+    description: "Viva is held individually to assess each members contribution to the project.",
     type: ["Group", "Individual"],
   },
 ];

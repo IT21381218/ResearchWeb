@@ -1,166 +1,180 @@
 /* Base Styles */
 .documentation {
-    padding: 50px 20px;
-    background-color: #476e57;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-  }
-  
+  padding: 50px 20px;
+  background-color: #476e57;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.documentation h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #f2f7f4;
+}
+
+.documents-section, .presentations-section {
+  margin-bottom: 50px;
+}
+
+.documents-section h2, .presentations-section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: #f57702;
+}
+
+/* Flexbox for Horizontal Layout */
+.documents-container, .presentations-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Card Styles */
+.card {
+  position: relative;
+  background: linear-gradient(135deg, #6f987e, #c8eafd); 
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 280px; /* Fixed width */
+  height: 320px; /* Fixed height */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  color: #121c17;
+  margin: 10px 0;
+}
+
+.card .description {
+  font-size: 1rem;
+  color: #213329 !important; /* Forces the color change */
+  margin-bottom: 10px;
+  flex-grow: 1;
+}
+
+
+
+/* Download Button */
+.download-btn {
+  display: inline-block;
+  background-color: #f57702;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #2f4d3c;
+}
+
+/* Icon Styling */
+.document-icon {
+  font-size: 50px;
+  color: #273e31;
+  margin: 10px auto;
+}
+
+/* Responsive Styles */
+
+/* Max-width 1200px */
+@media (max-width: 1200px) {
   .documentation h1 {
     font-size: 2rem;
-    margin-bottom: 30px;
-    color: #f2f7f4;
   }
-  
-  .documents-section, .presentations-section {
-    margin-bottom: 50px;
-  }
-  
+
   .documents-section h2, .presentations-section h2 {
-    font-size: 1.4rem;
-    margin-bottom: 20px;
-    color: #f57702;
+    font-size: 1.3rem;
   }
-  
-  /* Flexbox for Horizontal Layout */
-  .documents-container, .presentations-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  /* Card Styles */
+
   .card {
-    position: relative;
-    background: linear-gradient(135deg, #6f987e, #c8eafd); 
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 300px;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    overflow: hidden;
+    width: 260px;
+    height: 310px;
+    padding: 18px;
   }
-  
-  .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+
+  .document-icon {
+    font-size: 50px;
   }
-  
-  .document-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 10%;
-    margin: 0 auto 0px;
-    object-fit: cover;
+}
+
+/* Max-width 768px */
+@media (max-width: 768px) {
+  .documentation {
+    padding: 40px 15px;
   }
-  
-  .card h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #121c17;
+
+  .documentation h1 {
+    font-size: 1.8rem;
   }
-  
-  .description {
-    font-size: 1rem;
-    color: #476e57;
-    margin-bottom: 15px;
-    line-height: 1.5;
+
+  .documents-section h2, .presentations-section h2 {
+    font-size: 1.2rem;
   }
-  
-  /* Download Button */
+
+  .documents-container, .presentations-container {
+    align-items: center;
+  }
+
+  .card {
+    width: 260px;
+    height: 320px;
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+
+  .document-icon {
+    font-size: 50px;
+  }
+
   .download-btn {
-    display: inline-block;
-    background-color: #f57702;
-    color: #ffffff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1rem;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
+    font-size: 0.9rem;
+    padding: 8px 16px;
   }
-  
-  .download-btn:hover {
-    background-color: #2f4d3c;
+}
+
+/* Max-width 480px */
+@media (max-width: 480px) {
+  .documentation {
+    padding: 30px 10px;
   }
-  
-  /* Mobile Responsiveness */
-  
-  /* Max-width 1200px */
-  @media (max-width: 1200px) {
-    .documentation h1 {
-      font-size: 2rem;
-    }
-  
-    .documents-section h2, .presentations-section h2 {
-      font-size: 1.8rem;
-    }
-  
-    .card {
-      max-width: 280px;
-    }
-  
-    .document-image {
-      width: 120px;
-      height: 120px;
-    }
+
+  .documentation h1 {
+    font-size: 1.5rem;
   }
-  
-  /* Max-width 768px */
-  @media (max-width: 768px) {
-    .documentation h1 {
-      font-size: 1.8rem;
-    }
-  
-    .documents-section h2, .presentations-section h2 {
-      font-size: 1.6rem;
-    }
-  
-    .documents-container, .presentations-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .card {
-      max-width: 90%;
-      margin-bottom: 20px;
-    }
-  
-    .document-image {
-      width: 100px;
-      height: 100px;
-    }
-  
-    .download-btn {
-      font-size: 0.9rem;
-      padding: 8px 16px;
-    }
+
+  .documents-section h2, .presentations-section h2 {
+    font-size: 1.1rem;
   }
-  
-  /* Max-width 480px */
-  @media (max-width: 480px) {
-    .documentation h1 {
-      font-size: 1.5rem;
-    }
-  
-    .documents-section h2, .presentations-section h2 {
-      font-size: 1.4rem;
-    }
-  
-    .card {
-      max-width: 90%;
-      margin-bottom: 15px;
-    }
-  
-    .document-image {
-      width: 80px;
-      height: 80px;
-    }
-  
-    .download-btn {
-      font-size: 0.8rem;
-      padding: 6px 12px;
-    }
+
+  .card {
+    width: 95%;
+    height: 310px;
+    padding: 14px;
+    margin-bottom: 15px;
   }
-  
+
+  .document-icon {
+    font-size: 50px;
+  }
+
+  .download-btn {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}

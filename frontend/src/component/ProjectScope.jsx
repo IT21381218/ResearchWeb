@@ -2,12 +2,15 @@ import React from 'react';
 import './styles/ProjectScope.css';
 import { FaSearch, FaExclamationCircle, FaShareAlt } from 'react-icons/fa'; // Import the icons
 import Marquee from "react-fast-marquee";
-import { FaReact, FaNodeJs, FaPython, FaDatabase, FaHtml5, FaCss3Alt, FaJsSquare } from "react-icons/fa"; // Import icons
+import { FaReact, FaPython, FaGithub } from "react-icons/fa"; // Import icons
+import { SiTensorflow, SiGooglecloud, SiGooglecolab,SiGooglemaps,SiPostman } from "react-icons/si";
+import { IoLogoFirebase } from "react-icons/io5";
+import { VscVscode } from "react-icons/vsc";
 
 const ProjectScope = () => {
   return (
-    <div className="project-scope">
-      <section id="literature-survey" className="literature-survey">
+    <div className="project-scope" id="literature-survey">
+      <section  className="literature-survey">
         <div className="literature-survey-content">
           <img
             src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1735639456/intern%20frontend/813326657067760057_imlsmr.png" // Replace with your image URL
@@ -161,28 +164,40 @@ const ProjectScope = () => {
         <p>React</p>
       </div>
       <div className="tech-item">
-        <FaNodeJs className="tech-icon" title="Node.js" />
-        <p>Node.js</p>
+        <SiTensorflow   className="tech-icon" title="Tensorflow  " />
+        <p>Tensorflow </p>
       </div>
       <div className="tech-item">
         <FaPython className="tech-icon" title="Python" />
         <p>Python</p>
       </div>
       <div className="tech-item">
-        <FaDatabase className="tech-icon" title="Database" />
-        <p>Database</p>
+        <IoLogoFirebase className="tech-icon" title="Firebase" />
+        <p>Firebase</p>
       </div>
       <div className="tech-item">
-        <FaHtml5 className="tech-icon" title="HTML5" />
-        <p>HTML5</p>
+        <SiGooglecloud  className="tech-icon" title="Googlecloud " />
+        <p>Google cloud </p>
       </div>
       <div className="tech-item">
-        <FaCss3Alt className="tech-icon" title="CSS3" />
-        <p>CSS3</p>
+        <SiGooglecolab  className="tech-icon" title="Googlecolab " />
+        <p>Google Colab </p>
       </div>
       <div className="tech-item">
-        <FaJsSquare className="tech-icon" title="JavaScript" />
-        <p>JavaScript</p>
+        <SiGooglemaps  className="tech-icon" title="Googlemaps " />
+        <p>Google map API </p>
+      </div>
+      <div className="tech-item">
+        <SiPostman  className="tech-icon" title="Postman" />
+        <p>Postman</p>
+      </div>
+      <div className="tech-item">
+        <FaGithub  className="tech-icon" title="Github" />
+        <p>Github</p>
+      </div>
+      <div className="tech-item">
+        <VscVscode className="tech-icon" title="Vscode" />
+        <p>VS code</p>
       </div>
     </div>
   </Marquee>

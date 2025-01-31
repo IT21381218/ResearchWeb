@@ -1,40 +1,72 @@
 import React from 'react';
+import { FaAddressBook, FaResearchgate , FaFilePowerpoint, FaClipboardList, FaFileAlt } from 'react-icons/fa';
+import { PiProjectorScreenChartFill } from "react-icons/pi";
 import './styles/Documentation.css';
 
 const Documentation = () => {
   const projectDocuments = [
     {
-      name: 'Project Plan',
-      description: 'Detailed project plan outlining the timeline and milestones.',
-      image: 'https://res.cloudinary.com/dwcxwpn7q/image/upload/v1734375805/eehanee/807899038176362627_it4oua.png', // Replace with your image URL
-      file: '/files/ProjectPlan.pdf', // Replace with your file path
+      name: 'Topic Assessment',
+      description: 'Submitted on 2024/10/10',
+      icon: <FaClipboardList/>,
+      file: '/files/TAF_24-25J-085.pdf',
     },
     {
-      name: 'Requirements Document',
-      description: 'Comprehensive document detailing the project requirements.',
-      image: 'https://via.placeholder.com/150',
+      name: 'Project Proposal',
+      description: 'Submitted on 2024/08/22',
+      icon: <PiProjectorScreenChartFill/>,
+      file: 'https://drive.google.com/drive/folders/1JoEnFurCaFXDZITfBC3f-PcLMfDd9etl?usp=drive_link',
+    },
+    {
+      name: 'Research Paper',
+      description: 'Submitted on 2024/08/22',
+      icon: <FaResearchgate />,
+      file: '/files/RequirementsDocument.pdf',
+    },
+    {
+      name: 'Final Report',
+      description: 'Submitted on 2024/08/22',
+      icon: <FaFileAlt />,
+      file: '/files/RequirementsDocument.pdf',
+    },
+    {
+      name: 'Research Logbook',
+      description: 'Submitted on 2024/08/22',
+      icon: <FaAddressBook />,
       file: '/files/RequirementsDocument.pdf',
     },
   ];
 
   const projectPresentations = [
     {
-      name: 'Initial Presentation',
-      description: 'Slides from the initial project kickoff meeting.',
-      image: 'https://via.placeholder.com/150',
+      name: 'Project Proposal',
+      description: 'Submitted on 2024/08/22',
+      icon: <FaFilePowerpoint/>,
+      file: 'https://drive.google.com/drive/folders/1D5okpQR2gjrtjRtBOOp8TxvJmB0galCV?usp=drive_link',
+    },
+    {
+      name: 'Progress Presentation I',
+      description: 'Submitted on 2024/10/07',
+      icon: <FaFilePowerpoint/>,
+      file: 'https://drive.google.com/drive/folders/1rBVEDZmxd4KaYxLfYcfZfBY8rY1zGWX5?usp=sharing',
+    },
+    {
+      name: 'Progress Presentation II',
+      description: 'Submitted on 2024/08/22',
+      icon: <FaFilePowerpoint/>,
       file: '/files/InitialPresentation.pptx',
     },
     {
       name: 'Final Presentation',
-      description: 'Final presentation slides summarizing the project outcomes.',
-      image: 'https://via.placeholder.com/150',
-      file: '/files/LogBook-23-IT20409982.pdf',
+      description: 'Submitted on 2024/08/22',
+      icon: <FaFilePowerpoint />,
+      file: '/files/InitialPresentation.pptx',
     },
   ];
 
   const renderCard = (document) => (
     <div className="card" key={document.name}>
-      <img src={document.image} alt={document.name} className="document-image" />
+      <div className="document-icon">{document.icon}</div>
       <h3>{document.name}</h3>
       <p className="description">{document.description}</p>
       <a href={document.file} download className="download-btn">

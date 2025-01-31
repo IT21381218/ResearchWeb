@@ -1,4 +1,8 @@
 /* Footer Styles */
+
+html {
+  scroll-behavior: smooth;
+}
 .footer {
   background-color: #476e57;
   padding: 40px 0;
