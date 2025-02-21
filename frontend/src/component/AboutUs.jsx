@@ -21,7 +21,7 @@ const AboutUs = () => {
       image: "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737918830/cattle%20site/scan_image_1509944773-GamageMP_qppkin.jpg",
       social: {
         linkedin: "https://www.linkedin.com/in/manori-gamage-a95b3a177/",
-        facebook: "https://twitter.com/janedoe",
+        facebook: "https://www.facebook.com/manori.gamage.7",
       },
     },
   ];

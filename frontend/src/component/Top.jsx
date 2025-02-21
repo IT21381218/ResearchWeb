@@ -177,7 +177,7 @@ const TopDetails = () => {
         Welcome to <span className="highlight">Cattle Site</span>
         </h2>
         <p>
-          Explore stunning visuals and captivating designs as you scroll through our immersive experience. From parallax effects to dynamic transitions, every detail is crafted to inspire and engage.
+        Our project focuses on developing an integrated veterinary application to enhance cow health management. It aims to improve disease detection, optimize cow care practices, predict milk production, and streamline veterinary services.
         </p>
       </div>
     </div>

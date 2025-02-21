@@ -4,8 +4,9 @@ html {
   scroll-behavior: smooth;
 }
 .footer {
+  margin-top: -1px;
   background-color: #476e57;
-  padding: 40px 0;
+  padding: 40px 0px;
   color: #f2f7f4;
 }
 

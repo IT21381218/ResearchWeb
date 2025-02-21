@@ -68,12 +68,11 @@ const ProjectScope = () => {
         <div className="research-problem-top">
           <div className="research-problem-left">
             <h2>Research Problem</h2>
-            <h3>How to classify pest and diseases in coconut and provide surveillance to people in real time?</h3>
+            <h3>How can we leverage advanced technologies to develop an accurate and efficient disease detection and prevention system for cows?</h3>
             <p>
-              The research problem addresses the challenges and issues that exist within the current body of knowledge. It identifies gaps
-              and outlines the main areas where further investigation is needed to make progress in the field. The research solution proposes a methodology or approach to address the identified problem. It outlines the steps and strategies
-              that can be implemented to overcome the challenges and gaps found in the existing research.The research solution proposes a methodology or approach to address the identified problem. It outlines the steps and strategies
-              that can be implemented to overcome the challenges and gaps found in the existing research.
+            The health management of cows is a critical aspect of livestock farming, directly influencing productivity, economic viability, and animal welfare. Despite advancements in veterinary medicine, many cow owners still face challenges in timely disease detection, effective care practices, and efficient communication with veterinarians. These issues are exacerbated by the lack of accessible and comprehensive technological solutions tailored to the specific needs of cow health management.
+            <br/>
+            One of the primary issues is the late diagnosis of diseases. Cows frequently exhibit modest signs that go unrecognized until the illness worsens, resulting in higher mortality rates and huge economic losses. Early diagnosis is critical for effective disease treatment and prevention in herds, but traditional approaches are labor-intensive and need specialist knowledge that not all cow owners have.
             </p>
           </div>
           <div className="research-problem-right">
@@ -93,10 +92,7 @@ const ProjectScope = () => {
         <div className="research-solution">
           <h2>Research Solution</h2>
           <p>
-            The research solution proposes a methodology or approach to address the identified problem. It outlines the steps and strategies
-            that can be implemented to overcome the challenges and gaps found in the existing research. The research solution proposes a methodology or approach to address the identified problem. It outlines the steps and strategies
-            that can be implemented to overcome the challenges and gaps found in the existing research. The research solution proposes a methodology or approach to address the identified problem. It outlines the steps and strategies
-            that can be implemented to overcome the challenges and gaps found in the existing research.
+          A thorough veterinary application that makes use of cutting-edge technologies to enhance illness detection, care procedures, and communication is required to meet these obstacles. In order to provide a comprehensive solution for cow health management, the suggested application intends to incorporate AI-driven diagnostic capabilities, individualized health records management, and community participation features. The program aims to increase the productivity of cattle husbandry and the general well-being of cows by promoting a supportive community, supporting efficient care practices, and improving early disease diagnosis.
           </p>
         </div>
       </section>
@@ -105,28 +101,28 @@ const ProjectScope = () => {
   <h2>Research Objectives</h2>
   <div className="objectives-container">
     <div className="objective-card">
-      <h3>Objective 1: Understanding</h3>
+      <h3>Enhance disease detection and prevention</h3>
       <p>
         Gain a comprehensive understanding of the current challenges and gaps
         in the field by reviewing existing literature and data.
       </p>
     </div>
     <div className="objective-card">
-      <h3>Objective 2: Innovation</h3>
+      <h3>Improve cow care practices</h3>
       <p>
         Develop innovative solutions to address identified research gaps using
         cutting-edge methodologies and technologies.
       </p>
     </div>
     <div className="objective-card">
-      <h3>Objective 3: Collaboration</h3>
+      <h3>Predict milk production</h3>
       <p>
         Foster collaboration between researchers and industry experts to share
         knowledge and create impactful solutions.
       </p>
     </div>
     <div className="objective-card">
-      <h3>Objective 4: Implementation</h3>
+      <h3>Streamline veterinary communication and services</h3>
       <p>
         Implement and evaluate proposed solutions to measure their effectiveness
         and scalability in real-world scenarios.
