@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 30px;
+  padding: 15px 30px;
   z-index: 1000;
   transition: background-color 0.3s ease;
 }
@@ -22,7 +22,7 @@
 }
 
 .logo-img {
-  width: 90px; /* Adjust the width as needed */
+  width: 75px; /* Adjust the width as needed */
   height: auto;
 }
 
@@ -244,4 +244,5 @@
   .navbar-menu-icon {
     display: block;
   }
+
 }
