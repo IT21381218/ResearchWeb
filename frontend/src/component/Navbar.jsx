@@ -54,7 +54,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">
         <img
-          src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1740146270/cattle%20site/logo_gtyy67.png"
+          src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1740171352/cattle%20site/logo2_cnbuwh.png"
           alt="MyApp Logo"
           className="logo-img"
         />
