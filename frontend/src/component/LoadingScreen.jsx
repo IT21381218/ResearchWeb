@@ -11,7 +11,7 @@ const LoadingScreen = ({ onLoaded }) => {
 
   useEffect(() => {
     const assets = [
-      "https://res.cloudinary.com/dwcxwpn7q/video/upload/v1740169824/cattle%20site/My_Video_f7vjsx.mp4",
+      "https://res.cloudinary.com/dwcxwpn7q/video/upload/v1740303225/low_quality_mntplm.mp4",
       "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737913718/cattle%20site/top2_jq9sz1.png",
       "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737917080/cattle%20site/phone2_c21kgg.png",
       "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737919875/cattle%20site/823045008417489391_dtr6qh.png",

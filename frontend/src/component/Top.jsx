@@ -170,7 +170,7 @@ const TopDetails = () => {
         loop
         muted
         playsInline
-        src="https://res.cloudinary.com/dwcxwpn7q/video/upload/v1740169824/cattle%20site/My_Video_f7vjsx.mp4"
+        src="https://res.cloudinary.com/dwcxwpn7q/video/upload/v1740303225/low_quality_mntplm.mp4"
       />
       <div className="top-description">
         <h2>

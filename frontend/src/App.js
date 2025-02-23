@@ -15,7 +15,7 @@ const App = () => {
           {/* Background video */}
           <video className="background-video" autoPlay loop muted>
             <source
-              src="https://res.cloudinary.com/dwcxwpn7q/video/upload/v1740169824/cattle%20site/My_Video_f7vjsx.mp4"
+              src="https://res.cloudinary.com/dwcxwpn7q/video/upload/v1740303225/low_quality_mntplm.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.
