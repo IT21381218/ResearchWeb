@@ -14,10 +14,9 @@ const LoadingScreen = ({ onLoaded }) => {
       "https://res.cloudinary.com/dwcxwpn7q/video/upload/v1740303225/low_quality_mntplm.mp4",
       "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737913718/cattle%20site/top2_jq9sz1.png",
       "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737917080/cattle%20site/phone2_c21kgg.png",
-      "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737919875/cattle%20site/823045008417489391_dtr6qh.png",
-      "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737920686/cattle%20site/823123765232872001_loa6mr.png",
-      "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737920243/cattle%20site/823122485332586303_ea9jzl.png",
-      "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1738090593/cattle%20site/823032729105978965_2_y9bc56.png",
+      // "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737919875/cattle%20site/823045008417489391_dtr6qh.png",
+      // "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737920686/cattle%20site/823123765232872001_loa6mr.png",
+      // "https://res.cloudinary.com/dwcxwpn7q/image/upload/v1737920243/cattle%20site/823122485332586303_ea9jzl.png",
     ];
 
     const preloadAssets = async () => {
