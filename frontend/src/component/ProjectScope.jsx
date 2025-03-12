@@ -102,31 +102,19 @@ const ProjectScope = () => {
   <div className="objectives-container">
     <div className="objective-card">
       <h3>Enhance disease detection and prevention</h3>
-      <p>
-        Gain a comprehensive understanding of the current challenges and gaps
-        in the field by reviewing existing literature and data.
-      </p>
+      <p>Developing a machine learning-based system for early cow disease detection, including a comprehensive disease database, an interactive symptom checker, and a CNN for image classification.</p>
     </div>
     <div className="objective-card">
       <h3>Improve cow care practices</h3>
-      <p>
-        Develop innovative solutions to address identified research gaps using
-        cutting-edge methodologies and technologies.
-      </p>
+      <p>The integrated cow care system combines health records, nutrition tracking, and predictive analytics to optimize cattle management, improve productivity, and enhance overall cow health.</p>
     </div>
     <div className="objective-card">
       <h3>Predict milk production</h3>
-      <p>
-        Foster collaboration between researchers and industry experts to share
-        knowledge and create impactful solutions.
-      </p>
+      <p>Developing a predictive model to forecast milk production using historical environmental data, helping farmers optimize herding, nutrition, and productivity.</p>
     </div>
     <div className="objective-card">
       <h3>Streamline veterinary communication and services</h3>
-      <p>
-        Implement and evaluate proposed solutions to measure their effectiveness
-        and scalability in real-world scenarios.
-      </p>
+      <p>Leveraging modern technology to enhance communication and service delivery between veterinarians and farmers through appointment scheduling, emergency assistance, and location-based veterinary services.</p>
     </div>
   </div>
 </section>
@@ -138,12 +126,14 @@ const ProjectScope = () => {
     <div className="methodology-text">
       <h2>Methodology</h2>
       <p>
-        Our methodology involves a structured approach to research and problem-solving. We employ qualitative and quantitative methods to gather data, analyze trends, and derive actionable insights. By leveraging advanced tools and frameworks, we ensure accuracy, reliability, and scalability in our solutions.
+      The CattleSite system leverages machine learning, IoT, and centralized data management to improve cow health monitoring, disease detection, and veterinary services. It utilizes CNN and ResNet50 for disease classification and logistic regression for behavior-based health predictions. Real-time health data from IoT sensors is integrated with farm records in Firebase, analyzed using Random Forest Classifier to predict health risks and optimize nutrition, with insights displayed via a React-based dashboard
+      <br></br>
+      For milk production prediction, a Random Forest model analyzes historical data and environmental factors, providing real-time forecasts via a Python FastAPI backend. The system enhances veterinary communication using Google Maps and Places APIs to locate nearby clinics, NLP for vet recommendations, and Socket.io for real-time chat and appointment scheduling. Testing demonstrated 87.5% disease detection accuracy and 4.7% MAPE error in milk prediction, ensuring efficient cow care, predictive analytics, and streamlined veterinary services, ultimately improving dairy farm productivity.
       </p>
     </div>
     <div className="methodology-image">
       <img
-        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1735640072/intern%20frontend/813328503903725869_kwjyqu.png" // Replace with your image URL
+        src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1741806320/cattle%20site/Untitled_Diagram_eurrmw.png" // Replace with your image URL
         alt="Methodology Illustration"
       />
     </div>

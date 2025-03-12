@@ -35,7 +35,6 @@ const AboutUs = () => {
       social: {
         linkedin: "https://www.linkedin.com/in/poornaka-perera-ab56bb218/",
         facebook: "https://www.facebook.com/poornaka.perera/",
-        github: "rajmalperera@gmail.com",
       },
     },
     {

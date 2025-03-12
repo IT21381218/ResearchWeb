@@ -304,7 +304,7 @@
 }
 
 .methodology-image img:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
 }
 

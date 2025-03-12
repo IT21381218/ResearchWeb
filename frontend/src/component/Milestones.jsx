@@ -17,13 +17,13 @@ const milestones = [
     type: ["Group", "Individual"],
   },
   {
-    date: "2025-01-25",
+    date: "2025-03-07",
     name: "Research Paper",
     description: "Describes what you contribute to existing knowledge, giving due recognition to all work that you referred in making new knowledge",
     type: ["Group", "Individual"],
   },
   {
-    date: "2025-01-25",
+    date: "2025-03-18",
     name: "Progress Presentation II",
     description: "Conducted extensive testing to ensure the application is bug-free.",
     type: ["Group", "Individual"],
