@@ -13,7 +13,7 @@ const ProjectScope = () => {
       <section  className="literature-survey">
         <div className="literature-survey-content">
           <img
-            src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1735639456/intern%20frontend/813326657067760057_imlsmr.png" // Replace with your image URL
+            src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1742198514/cattle%20site/dfd_vfjkf9.png" // Replace with your image URL
             alt="Literature Survey"
             className="literature-survey-image"
           />
