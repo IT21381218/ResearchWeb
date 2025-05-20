@@ -18,13 +18,49 @@ const ProjectScope = () => {
             className="literature-survey-image"
           />
           <div className="literature-survey-text">
-            <h2>Literature Survey</h2>
-            <p>
-              In this section, we discuss the relevant literature in the field of research. The literature survey is a critical
-              part of understanding existing work and identifying gaps in knowledge. Here we explore various studies, their methodologies, 
-              and findings.
-            </p>
-          </div>
+  <h2>Literature Survey</h2>
+  <p>
+    Recent developments in livestock health monitoring have seen an increasing role for machine learning (ML) and Internet of Things (IoT) technologies.
+    CNN-based disease identification achieved 88% accuracy on skin disease detection in cattle using image datasets (AlZub, 2024).
+    Similarly, respiratory disease detection via CNNs showed promising results with the help of high-quality imagery (Ghaffari et al., 2022).
+    However, the integration of CNNs into symptom-based diagnosis remains limited (Ali Rohan et al., 2024).
+  </p>
+
+  <p>
+    Tools like the mobile app developed by Shanka (2022) allow users to input symptoms to receive possible diagnoses, emphasizing the need for ML integration.
+    Slob et al. (2020) introduced an adaptive dairy management system that relied on manual input and needed frequent updates.
+    Furthermore, Pavkin et al. (2021) used regression models to detect cattle illness from behavioral changes, such as feeding and movement patterns.
+  </p>
+
+  <p>
+    Real-time monitoring through IoT devices such as RFID tags and heart rate sensors enables effective disease tracking (Rajak et al., 2023).
+    Ji et al. (2022) used machine learning to predict milk yield and composition in robotic farms, achieving excellent results through cross-validation.
+  </p>
+
+  <p>
+    Veterinary scheduling platforms like CattleMax and PetDesk have improved client satisfaction by enabling appointment and communication tools (CattleMax, 2023; PetDesk, 2023).
+    However, these platforms lack integration with geolocation or vet profile management features, which are critical in rural and emergency contexts.
+  </p>
+
+  <p>
+    In contrast, the CattleSite system addresses these limitations by integrating ML-powered disease detection, real-time IoT data, predictive milk yield modeling, and advanced vet communication tools within a unified platform.
+  </p>
+
+  <p><strong>References:</strong></p>
+  <ul>
+    <li>AlZub, A.A. (2024). CNN-based Bovine Disease Detection. Indian Journal of Animal Research.</li>
+    <li>Ghaffari, M.H. et al. (2022). Deep learning in Respiratory Diagnosis. Journal of Dairy Science.</li>
+    <li>Ali Rohan et al. (2024). Application of CNNs in Symptom-based Diagnosis. ScienceDirect.</li>
+    <li>Shanka, A.G. (2022). Mobile App for Cattle Disease Diagnosis. ResearchGate.</li>
+    <li>Slob, N. et al. (2020). Adaptive Dairy Recommendation Systems. ResearchGate.</li>
+    <li>Pavkin, D.U. et al. (2021). Behavior-based Disease Detection using Regression. Algorithms for Cattle Health.</li>
+    <li>Rajak, P. et al. (2023). IoT in Agricultural Health Systems. Journal of Agriculture and Food Research.</li>
+    <li>Ji, B. et al. (2022). ML-based Milk Yield Prediction. Biosystems Engineering.</li>
+    <li>CattleMax (2023). Online Veterinary Management Platform. https://www.cattlemax.com/</li>
+    <li>PetDesk (2023). Vet-Client Communication Platform. https://petdesk.com/</li>
+  </ul>
+</div>
+
         </div>
       </section>
 
