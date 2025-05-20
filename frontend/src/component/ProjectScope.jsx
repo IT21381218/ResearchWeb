@@ -12,25 +12,19 @@ const ProjectScope = () => {
     <div className="project-scope" id="literature-survey">
       <section  className="literature-survey">
         <div className="literature-survey-content">
-          <img
-            src="https://res.cloudinary.com/dwcxwpn7q/image/upload/v1742198514/cattle%20site/dfd_vfjkf9.png" // Replace with your image URL
-            alt="Literature Survey"
-            className="literature-survey-image"
-          />
           <div className="literature-survey-text">
-  <h2>Literature Survey</h2>
-  <p>
-    Recent developments in livestock health monitoring have seen an increasing role for machine learning (ML) and Internet of Things (IoT) technologies.
-    CNN-based disease identification achieved 88% accuracy on skin disease detection in cattle using image datasets (AlZub, 2024).
-    Similarly, respiratory disease detection via CNNs showed promising results with the help of high-quality imagery (Ghaffari et al., 2022).
-    However, the integration of CNNs into symptom-based diagnosis remains limited (Ali Rohan et al., 2024).
-  </p>
-
-  <p>
-    Tools like the mobile app developed by Shanka (2022) allow users to input symptoms to receive possible diagnoses, emphasizing the need for ML integration.
-    Slob et al. (2020) introduced an adaptive dairy management system that relied on manual input and needed frequent updates.
-    Furthermore, Pavkin et al. (2021) used regression models to detect cattle illness from behavioral changes, such as feeding and movement patterns.
-  </p>
+            <h2>Literature Survey</h2>
+            <p>
+              Recent developments in livestock health monitoring have seen an increasing role for machine learning (ML) and Internet of Things (IoT) technologies.
+              CNN-based disease identification achieved 88% accuracy on skin disease detection in cattle using image datasets (AlZub, 2024).
+              Similarly, respiratory disease detection via CNNs showed promising results with the help of high-quality imagery (Ghaffari et al., 2022).
+              However, the integration of CNNs into symptom-based diagnosis remains limited (Ali Rohan et al., 2024).
+              </p>
+              <p>
+              Tools like the mobile app developed by Shanka (2022) allow users to input symptoms to receive possible diagnoses, emphasizing the need for ML integration.
+              Slob et al. (2020) introduced an adaptive dairy management system that relied on manual input and needed frequent updates.
+              Furthermore, Pavkin et al. (2021) used regression models to detect cattle illness from behavioral changes, such as feeding and movement patterns.
+              </p>
 
   <p>
     Real-time monitoring through IoT devices such as RFID tags and heart rate sensors enables effective disease tracking (Rajak et al., 2023).
