@@ -5,7 +5,7 @@ import "./styles/Milestones.css";
 
 const milestones = [
   {
-    date: "2025-01-10",
+    date: "2025-08-23",
     name: "Project Proposal",
     description: "A Project Proposal is presented to potential sponsors or clients to receive funding or get your project approved.",
     type: ["Group"],
