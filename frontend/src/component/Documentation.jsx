@@ -60,7 +60,7 @@ const Documentation = () => {
       name: 'Final Presentation',
       description: 'Submitted on 2025/05/27',
       icon: <FaFilePowerpoint />,
-      file: '/files/InitialPresentation.pptx',
+      file: '/files/Final viva Presentation.pdf',
     },
   ];
 
