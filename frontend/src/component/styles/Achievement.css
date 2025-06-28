@@ -1,0 +1,479 @@
+/* Achievement Container */
+.achievement-container {
+  padding: 60px 20px;
+  background-color: #476e57;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.achievement-content {
+  max-width: 1400px; /* Increased from 900px */
+  margin: 0 auto;
+}
+
+/* Title and Subtitle */
+.achievement-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #f2f7f4;
+  font-weight: 700;
+}
+
+.achievement-subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+  color: #f2f7f4;
+  opacity: 0.9;
+}
+
+/* Achievement Showcase */
+.achievement-showcase {
+  /* Remove margin-bottom: 50px; */
+}
+
+.achievement-card {
+  background: linear-gradient(135deg, #6f987e, #c8eafd);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border: 4px solid #f2f7f4;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.achievement-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: linear-gradient(90deg, #f57702, #28a745, #17a2b8);
+  border-radius: 20px 20px 0 0;
+}
+
+.achievement-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Achievement Header */
+.achievement-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.achievement-icon {
+  font-size: 3.5rem;
+  color: #273e31;
+  animation: sparkle 2s ease-in-out;
+}
+
+.status-badge {
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.status-badge.selected {
+  background-color: #f57702;
+  color: white;
+  box-shadow: 0 4px 15px rgba(245, 119, 2, 0.3);
+}
+
+/* Conference Image */
+.conference-image {
+  position: relative;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.conference-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.conference-image:hover .conference-img {
+  transform: scale(1.05);
+}
+
+.image-overlay {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: rgba(245, 119, 2, 0.9);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-icon {
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Achievement Details */
+.achievement-details {
+  color: #121c17;
+}
+
+.conference-name {
+  font-size: 2rem;
+  color: #121c17;
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.conference-full-name {
+  font-size: 1.2rem;
+  color: #273e31;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.achievement-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  color: #121c17;
+  text-align: justify;
+}
+
+/* Conference Info */
+.conference-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.info-icon {
+  font-size: 1.5rem;
+  color: #273e31;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-label {
+  font-size: 0.9rem;
+  color: #273e31;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.info-value {
+  font-size: 1.1rem;
+  color: #121c17;
+  font-weight: 600;
+}
+
+/* Research Highlights */
+.research-highlights {
+  margin-bottom: 30px;
+}
+
+.research-highlights h4 {
+  font-size: 1.3rem;
+  color: #121c17;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.research-highlights ul {
+  list-style: none;
+  padding: 0;
+}
+
+.research-highlights li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  color: #121c17;
+  line-height: 1.6;
+}
+
+.research-highlights li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #28a745;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Achievement Footer */
+.achievement-footer {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.recognition-text {
+  font-size: 1rem;
+  color: #273e31;
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* Confetti Styles */
+.confetti-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.confetti-piece {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  animation: confetti-fall linear forwards;
+}
+
+.confetti-piece.square {
+  width: 8px;
+  height: 8px;
+}
+
+.confetti-piece.circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.confetti-piece.triangle {
+  width: 0;
+  height: 0;
+  background: transparent !important;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 8px solid;
+}
+
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(-100vh) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+@keyframes sparkle {
+  0%,
+  100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  50% {
+    transform: scale(1.1);
+    filter: brightness(1.3) drop-shadow(0 0 10px #f57702);
+  }
+}
+
+/* Responsive Design */
+
+/* Max-width 1200px */
+@media (max-width: 1200px) {
+  .achievement-container {
+    padding: 50px 15px;
+  }
+
+  .achievement-content {
+    max-width: 1200px; /* Adjusted for this breakpoint */
+  }
+
+  .achievement-title {
+    font-size: 2.2rem;
+  }
+
+  .achievement-card {
+    padding: 28px; /* Slightly adjusted */
+  }
+
+  .conference-name {
+    font-size: 1.8rem;
+  }
+
+  .conference-full-name {
+    font-size: 1.1rem;
+  }
+
+  .conference-img {
+    height: 280px; /* Slightly adjusted */
+  }
+}
+
+/* Max-width 768px */
+@media (max-width: 768px) {
+  .achievement-container {
+    padding: 40px 10px;
+  }
+
+  .achievement-content {
+    max-width: 100%; /* Full width on tablets */
+  }
+
+  .achievement-title {
+    font-size: 2rem;
+  }
+
+  .achievement-card {
+    padding: 25px;
+  }
+
+  .achievement-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .conference-name {
+    font-size: 1.6rem;
+  }
+
+  .conference-full-name {
+    font-size: 1rem;
+  }
+
+  .conference-info {
+    grid-template-columns: 1fr;
+  }
+
+  .conference-img {
+    height: 250px;
+  }
+
+  .achievement-description {
+    font-size: 1rem;
+  }
+
+  /* Smaller confetti on mobile */
+  .confetti-piece {
+    width: 6px;
+    height: 6px;
+  }
+
+  .confetti-piece.square {
+    width: 5px;
+    height: 5px;
+  }
+
+  .confetti-piece.circle {
+    width: 4px;
+    height: 4px;
+  }
+}
+
+/* Max-width 480px */
+@media (max-width: 480px) {
+  .achievement-container {
+    padding: 30px 5px;
+  }
+
+  .achievement-content {
+    max-width: 100%;
+  }
+
+  .achievement-title {
+    font-size: 1.8rem;
+  }
+
+  .achievement-subtitle {
+    font-size: 1rem;
+  }
+
+  .achievement-card {
+    padding: 20px;
+  }
+
+  .achievement-icon {
+    font-size: 3rem;
+  }
+
+  .conference-name {
+    font-size: 1.4rem;
+  }
+
+  .conference-full-name {
+    font-size: 0.9rem;
+  }
+
+  .achievement-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .conference-img {
+    height: 200px;
+  }
+
+  .info-item {
+    padding: 12px;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .info-icon {
+    font-size: 1.3rem;
+  }
+
+  .research-highlights h4 {
+    font-size: 1.2rem;
+  }
+
+  .research-highlights li {
+    font-size: 0.9rem;
+  }
+
+  .recognition-text {
+    font-size: 0.9rem;
+  }
+
+  /* Even smaller confetti on small mobile */
+  .confetti-piece {
+    width: 4px;
+    height: 4px;
+  }
+}
